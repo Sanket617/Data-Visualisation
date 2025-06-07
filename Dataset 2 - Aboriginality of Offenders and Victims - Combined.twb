@@ -1,0 +1,1422 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0611.0333                               -->
+<workbook original-version='18.1' source-build='2022.1.3 (20221.22.0611.0333)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Aboriginality of Offenders+ (Dataset 2 For Assignment 2)' inline='true' name='federated.1t8xpyx1net15918kk4qj0w5q7os' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Dataset 2 For Assignment 2' name='excel-direct.1t9tkbx19xxa5q12k6ycc0lra9jq'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='E:/Visualisation COMP7016/Assignment 2/Datasets for Assignment 2_New_Raw/Data/Dataset 2 For Assignment 2.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='string' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Offender&apos;s]' />
+            <value name='[Victim&apos;s]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Offenders].[Alleged offender&apos;s Aboriginality]' />
+              <field name='[Victims].[Victim&apos;s Aboriginality]' />
+            </group>
+          </groups>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[Offenders].[Alleged offender&apos;s Aboriginality]' />
+                <expression op='[Victims].[Victim&apos;s Aboriginality]' />
+              </expression>
+            </clause>
+            <relation connection='excel-direct.1t9tkbx19xxa5q12k6ycc0lra9jq' name='Offenders' table='[&apos;Aboriginality of Offenders$&apos;]' type='table'>
+              <columns gridOrigin='A1:L18:no:A1:L18:1' lost='0' outcome='1' processed='36'>
+                <column datatype='string' name='Alleged offender&apos;s Aboriginality' ordinal='0' />
+                <column datatype='integer' name='Murder *' ordinal='1' />
+                <column datatype='integer' name='Attempted murder' ordinal='2' />
+                <column datatype='integer' name='Domestic violence related assault' ordinal='3' />
+                <column datatype='integer' name='Sexual assault' ordinal='4' />
+                <column datatype='integer' name='Sexual touching, sexual act and other sexual offences' ordinal='5' />
+                <column datatype='integer' name='Abduction and kidnapping' ordinal='6' />
+                <column datatype='integer' name='Intimidation, stalking and harassment' ordinal='7' />
+                <column datatype='integer' name='Malicious damage to property' ordinal='8' />
+                <column datatype='integer' name='Breach Apprehended Violence Order' ordinal='9' />
+                <column datatype='real' name='F11' ordinal='10' />
+                <column datatype='real' name='F12' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='excel-direct.1t9tkbx19xxa5q12k6ycc0lra9jq' name='Victims' table='[&apos;Aboriginality of victims$&apos;]' type='table'>
+              <columns gridOrigin='A1:L18:no:A1:L18:1' lost='0' outcome='1' processed='36'>
+                <column datatype='string' name='Victim&apos;s Aboriginality' ordinal='0' />
+                <column datatype='integer' name='Murder *' ordinal='1' />
+                <column datatype='integer' name='Attempted murder' ordinal='2' />
+                <column datatype='integer' name='Domestic violence related assault' ordinal='3' />
+                <column datatype='integer' name='Sexual assault' ordinal='4' />
+                <column datatype='integer' name='Sexual touching, sexual act and other sexual offences' ordinal='5' />
+                <column datatype='integer' name='Abduction and kidnapping' ordinal='6' />
+                <column datatype='integer' name='Intimidation, stalking and harassment' ordinal='7' />
+                <column datatype='integer' name='Malicious damage to property' ordinal='8' />
+                <column datatype='integer' name='Breach Apprehended Violence Order' ordinal='9' />
+                <column datatype='real' name='F11' ordinal='10' />
+                <column datatype='real' name='F12' ordinal='11' />
+              </columns>
+            </relation>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='string' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Offender&apos;s]' />
+            <value name='[Victim&apos;s]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Offenders].[Alleged offender&apos;s Aboriginality]' />
+              <field name='[Victims].[Victim&apos;s Aboriginality]' />
+            </group>
+          </groups>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[Offenders].[Alleged offender&apos;s Aboriginality]' />
+                <expression op='[Victims].[Victim&apos;s Aboriginality]' />
+              </expression>
+            </clause>
+            <relation connection='excel-direct.1t9tkbx19xxa5q12k6ycc0lra9jq' name='Offenders' table='[&apos;Aboriginality of Offenders$&apos;]' type='table'>
+              <columns gridOrigin='A1:L18:no:A1:L18:1' lost='0' outcome='1' processed='36'>
+                <column datatype='string' name='Alleged offender&apos;s Aboriginality' ordinal='0' />
+                <column datatype='integer' name='Murder *' ordinal='1' />
+                <column datatype='integer' name='Attempted murder' ordinal='2' />
+                <column datatype='integer' name='Domestic violence related assault' ordinal='3' />
+                <column datatype='integer' name='Sexual assault' ordinal='4' />
+                <column datatype='integer' name='Sexual touching, sexual act and other sexual offences' ordinal='5' />
+                <column datatype='integer' name='Abduction and kidnapping' ordinal='6' />
+                <column datatype='integer' name='Intimidation, stalking and harassment' ordinal='7' />
+                <column datatype='integer' name='Malicious damage to property' ordinal='8' />
+                <column datatype='integer' name='Breach Apprehended Violence Order' ordinal='9' />
+                <column datatype='real' name='F11' ordinal='10' />
+                <column datatype='real' name='F12' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='excel-direct.1t9tkbx19xxa5q12k6ycc0lra9jq' name='Victims' table='[&apos;Aboriginality of victims$&apos;]' type='table'>
+              <columns gridOrigin='A1:L18:no:A1:L18:1' lost='0' outcome='1' processed='36'>
+                <column datatype='string' name='Victim&apos;s Aboriginality' ordinal='0' />
+                <column datatype='integer' name='Murder *' ordinal='1' />
+                <column datatype='integer' name='Attempted murder' ordinal='2' />
+                <column datatype='integer' name='Domestic violence related assault' ordinal='3' />
+                <column datatype='integer' name='Sexual assault' ordinal='4' />
+                <column datatype='integer' name='Sexual touching, sexual act and other sexual offences' ordinal='5' />
+                <column datatype='integer' name='Abduction and kidnapping' ordinal='6' />
+                <column datatype='integer' name='Intimidation, stalking and harassment' ordinal='7' />
+                <column datatype='integer' name='Malicious damage to property' ordinal='8' />
+                <column datatype='integer' name='Breach Apprehended Violence Order' ordinal='9' />
+                <column datatype='real' name='F11' ordinal='10' />
+                <column datatype='real' name='F12' ordinal='11' />
+              </columns>
+            </relation>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Abduction and kidnapping (Aboriginality of victims)]' value='[Victims].[Abduction and kidnapping]' />
+          <map key='[Abduction and kidnapping]' value='[Offenders].[Abduction and kidnapping]' />
+          <map key='[Attempted murder (Aboriginality of victims)]' value='[Victims].[Attempted murder]' />
+          <map key='[Attempted murder]' value='[Offenders].[Attempted murder]' />
+          <map key='[Breach Apprehended Violence Order (Aboriginality of victims)]' value='[Victims].[Breach Apprehended Violence Order]' />
+          <map key='[Breach Apprehended Violence Order]' value='[Offenders].[Breach Apprehended Violence Order]' />
+          <map key='[Domestic violence related assault (Aboriginality of victims)]' value='[Victims].[Domestic violence related assault]' />
+          <map key='[Domestic violence related assault]' value='[Offenders].[Domestic violence related assault]' />
+          <map key='[F11 (Aboriginality of victims)]' value='[Victims].[F11]' />
+          <map key='[F11]' value='[Offenders].[F11]' />
+          <map key='[F12 (Aboriginality of victims)]' value='[Victims].[F12]' />
+          <map key='[F12]' value='[Offenders].[F12]' />
+          <map key='[Intimidation, stalking and harassment (Aboriginality of victims)]' value='[Victims].[Intimidation, stalking and harassment]' />
+          <map key='[Intimidation, stalking and harassment]' value='[Offenders].[Intimidation, stalking and harassment]' />
+          <map key='[Malicious damage to property (Aboriginality of victims)]' value='[Victims].[Malicious damage to property]' />
+          <map key='[Malicious damage to property]' value='[Offenders].[Malicious damage to property]' />
+          <map key='[Murder * (Aboriginality of victims)]' value='[Victims].[Murder *]' />
+          <map key='[Murder *]' value='[Offenders].[Murder *]' />
+          <map key='[Pivot Field Names]' value='[Pivot].[Pivot Field Names]' />
+          <map key='[Pivot Field Values]' value='[Pivot].[Pivot Field Values]' />
+          <map key='[Sexual assault (Aboriginality of victims)]' value='[Victims].[Sexual assault]' />
+          <map key='[Sexual assault]' value='[Offenders].[Sexual assault]' />
+          <map key='[Sexual touching, sexual act and other sexual offences (Aboriginality of victims)]' value='[Victims].[Sexual touching, sexual act and other sexual offences]' />
+          <map key='[Sexual touching, sexual act and other sexual offences]' value='[Offenders].[Sexual touching, sexual act and other sexual offences]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L18:no:A1:L18:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>36</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L18:no:A1:L18:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>36</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Murder *</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Murder *]</local-name>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias>Murder *</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attempted murder</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Attempted murder]</local-name>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias>Attempted murder</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic violence related assault</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Domestic violence related assault]</local-name>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias>Domestic violence related assault</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sexual assault</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sexual assault]</local-name>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias>Sexual assault</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sexual touching, sexual act and other sexual offences</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sexual touching, sexual act and other sexual offences]</local-name>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias>Sexual touching, sexual act and other sexual offences</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abduction and kidnapping</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Abduction and kidnapping]</local-name>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias>Abduction and kidnapping</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Intimidation, stalking and harassment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Intimidation, stalking and harassment]</local-name>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias>Intimidation, stalking and harassment</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Malicious damage to property</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Malicious damage to property]</local-name>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias>Malicious damage to property</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Breach Apprehended Violence Order</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Breach Apprehended Violence Order]</local-name>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias>Breach Apprehended Violence Order</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>9</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[Offenders]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>10</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Murder *</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Murder * (Aboriginality of victims)]</local-name>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias>Murder *</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attempted murder</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Attempted murder (Aboriginality of victims)]</local-name>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias>Attempted murder</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic violence related assault</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Domestic violence related assault (Aboriginality of victims)]</local-name>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias>Domestic violence related assault</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sexual assault</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sexual assault (Aboriginality of victims)]</local-name>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias>Sexual assault</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sexual touching, sexual act and other sexual offences</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sexual touching, sexual act and other sexual offences (Aboriginality of victims)]</local-name>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias>Sexual touching, sexual act and other sexual offences</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abduction and kidnapping</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Abduction and kidnapping (Aboriginality of victims)]</local-name>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias>Abduction and kidnapping</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Intimidation, stalking and harassment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Intimidation, stalking and harassment (Aboriginality of victims)]</local-name>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias>Intimidation, stalking and harassment</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Malicious damage to property</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Malicious damage to property (Aboriginality of victims)]</local-name>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias>Malicious damage to property</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Breach Apprehended Violence Order</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Breach Apprehended Violence Order (Aboriginality of victims)]</local-name>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias>Breach Apprehended Violence Order</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F11 (Aboriginality of victims)]</local-name>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>20</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F12 (Aboriginality of victims)]</local-name>
+            <parent-name>[Victims]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>21</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Abduction and kidnapping (Victims)' datatype='integer' name='[Abduction and kidnapping (Aboriginality of victims)]' role='measure' type='quantitative' />
+      <column caption='Abduction and kidnapping (Offenders)' datatype='integer' name='[Abduction and kidnapping]' role='measure' type='quantitative' />
+      <column caption='Attempted murder (Victims)' datatype='integer' name='[Attempted murder (Aboriginality of victims)]' role='measure' type='quantitative' />
+      <column caption='Attempted murder (Offenders)' datatype='integer' name='[Attempted murder]' role='measure' type='quantitative' />
+      <column caption='Breach Apprehended Violence Order (Victims)' datatype='integer' name='[Breach Apprehended Violence Order (Aboriginality of victims)]' role='measure' type='quantitative' />
+      <column caption='Breach Apprehended Violence Order (Offenders)' datatype='integer' name='[Breach Apprehended Violence Order]' role='measure' type='quantitative' />
+      <column caption='Domestic violence related assault (Victims)' datatype='integer' name='[Domestic violence related assault (Aboriginality of victims)]' role='measure' type='quantitative' />
+      <column caption='Domestic violence related assault (Offenders)' datatype='integer' name='[Domestic violence related assault]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F11 (Aboriginality of victims)]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F11]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F12 (Aboriginality of victims)]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F12]' role='measure' type='quantitative' />
+      <column caption='Intimidation, stalking and harassment (Victims)' datatype='integer' name='[Intimidation, stalking and harassment (Aboriginality of victims)]' role='measure' type='quantitative' />
+      <column caption='Intimidation, stalking and harassment (Offenders)' datatype='integer' name='[Intimidation, stalking and harassment]' role='measure' type='quantitative' />
+      <column caption='Malicious damage to property (Victims)' datatype='integer' name='[Malicious damage to property (Aboriginality of victims)]' role='measure' type='quantitative' />
+      <column caption='Malicious damage to property (Offenders)' datatype='integer' name='[Malicious damage to property]' role='measure' type='quantitative' />
+      <column caption='Murder * (Victims)' datatype='integer' name='[Murder * (Aboriginality of victims)]' role='measure' type='quantitative' />
+      <column caption='Murder * (Offenders)' datatype='integer' name='[Murder *]' role='measure' type='quantitative' />
+      <column caption='Sexual assault (Victims)' datatype='integer' name='[Sexual assault (Aboriginality of victims)]' role='measure' type='quantitative' />
+      <column caption='Sexual assault (Offenders)' datatype='integer' name='[Sexual assault]' role='measure' type='quantitative' />
+      <column caption='Sexual touching, sexual act and other sexual offences (Victims)' datatype='integer' name='[Sexual touching, sexual act and other sexual offences (Aboriginality of victims)]' role='measure' type='quantitative' />
+      <column caption='Sexual touching, sexual act and other sexual offences (Offenders)' datatype='integer' name='[Sexual touching, sexual act and other sexual offences]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Aboriginality of Offenders' datatype='table' name='[__tableau_internal_object_id__].[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Abduction and kidnapping (Aboriginality of victims)]' derivation='Sum' name='[sum:Abduction and kidnapping (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Abduction and kidnapping]' derivation='Sum' name='[sum:Abduction and kidnapping:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Attempted murder (Aboriginality of victims)]' derivation='Sum' name='[sum:Attempted murder (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Attempted murder]' derivation='Sum' name='[sum:Attempted murder:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Breach Apprehended Violence Order (Aboriginality of victims)]' derivation='Sum' name='[sum:Breach Apprehended Violence Order (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Breach Apprehended Violence Order]' derivation='Sum' name='[sum:Breach Apprehended Violence Order:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Domestic violence related assault (Aboriginality of victims)]' derivation='Sum' name='[sum:Domestic violence related assault (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Domestic violence related assault]' derivation='Sum' name='[sum:Domestic violence related assault:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Intimidation, stalking and harassment (Aboriginality of victims)]' derivation='Sum' name='[sum:Intimidation, stalking and harassment (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Intimidation, stalking and harassment]' derivation='Sum' name='[sum:Intimidation, stalking and harassment:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Malicious damage to property (Aboriginality of victims)]' derivation='Sum' name='[sum:Malicious damage to property (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Malicious damage to property]' derivation='Sum' name='[sum:Malicious damage to property:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Murder * (Aboriginality of victims)]' derivation='Sum' name='[sum:Murder * (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Murder *]' derivation='Sum' name='[sum:Murder *:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sexual assault (Aboriginality of victims)]' derivation='Sum' name='[sum:Sexual assault (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sexual assault]' derivation='Sum' name='[sum:Sexual assault:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sexual touching, sexual act and other sexual offences (Aboriginality of victims)]' derivation='Sum' name='[sum:Sexual touching, sexual act and other sexual offences (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sexual touching, sexual act and other sexual offences]' derivation='Sum' name='[sum:Sexual touching, sexual act and other sexual offences:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Domestic violence related assault (Aboriginality of victims):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Abduction and kidnapping:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Breach Apprehended Violence Order:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Malicious damage to property (Aboriginality of victims):qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Intimidation, stalking and harassment:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Breach Apprehended Violence Order (Aboriginality of victims):qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Sexual touching, sexual act and other sexual offences (Aboriginality of victims):qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Abduction and kidnapping (Aboriginality of victims):qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Sexual assault (Aboriginality of victims):qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[__tableau_internal_object_id__].[cnt:Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Murder *:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Murder * (Aboriginality of victims):qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Sexual touching, sexual act and other sexual offences:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Intimidation, stalking and harassment (Aboriginality of victims):qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Domestic violence related assault:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Attempted murder:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Sexual assault:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Malicious damage to property:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Attempted murder (Aboriginality of victims):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Australia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Aboriginality of Offenders' id='Aboriginality of Offenders_1D2C7A16C31F46A988C30111296F3BBA'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='string' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[Offender&apos;s]' />
+                  <value name='[Victim&apos;s]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[Offenders].[Alleged offender&apos;s Aboriginality]' />
+                    <field name='[Victims].[Victim&apos;s Aboriginality]' />
+                  </group>
+                </groups>
+                <relation join='inner' type='join'>
+                  <clause type='join'>
+                    <expression op='='>
+                      <expression op='[Offenders].[Alleged offender&apos;s Aboriginality]' />
+                      <expression op='[Victims].[Victim&apos;s Aboriginality]' />
+                    </expression>
+                  </clause>
+                  <relation connection='excel-direct.1t9tkbx19xxa5q12k6ycc0lra9jq' name='Offenders' table='[&apos;Aboriginality of Offenders$&apos;]' type='table'>
+                    <columns gridOrigin='A1:L18:no:A1:L18:1' lost='0' outcome='1' processed='36'>
+                      <column datatype='string' name='Alleged offender&apos;s Aboriginality' ordinal='0' />
+                      <column datatype='integer' name='Murder *' ordinal='1' />
+                      <column datatype='integer' name='Attempted murder' ordinal='2' />
+                      <column datatype='integer' name='Domestic violence related assault' ordinal='3' />
+                      <column datatype='integer' name='Sexual assault' ordinal='4' />
+                      <column datatype='integer' name='Sexual touching, sexual act and other sexual offences' ordinal='5' />
+                      <column datatype='integer' name='Abduction and kidnapping' ordinal='6' />
+                      <column datatype='integer' name='Intimidation, stalking and harassment' ordinal='7' />
+                      <column datatype='integer' name='Malicious damage to property' ordinal='8' />
+                      <column datatype='integer' name='Breach Apprehended Violence Order' ordinal='9' />
+                      <column datatype='real' name='F11' ordinal='10' />
+                      <column datatype='real' name='F12' ordinal='11' />
+                    </columns>
+                  </relation>
+                  <relation connection='excel-direct.1t9tkbx19xxa5q12k6ycc0lra9jq' name='Victims' table='[&apos;Aboriginality of victims$&apos;]' type='table'>
+                    <columns gridOrigin='A1:L18:no:A1:L18:1' lost='0' outcome='1' processed='36'>
+                      <column datatype='string' name='Victim&apos;s Aboriginality' ordinal='0' />
+                      <column datatype='integer' name='Murder *' ordinal='1' />
+                      <column datatype='integer' name='Attempted murder' ordinal='2' />
+                      <column datatype='integer' name='Domestic violence related assault' ordinal='3' />
+                      <column datatype='integer' name='Sexual assault' ordinal='4' />
+                      <column datatype='integer' name='Sexual touching, sexual act and other sexual offences' ordinal='5' />
+                      <column datatype='integer' name='Abduction and kidnapping' ordinal='6' />
+                      <column datatype='integer' name='Intimidation, stalking and harassment' ordinal='7' />
+                      <column datatype='integer' name='Malicious damage to property' ordinal='8' />
+                      <column datatype='integer' name='Breach Apprehended Violence Order' ordinal='9' />
+                      <column datatype='real' name='F11' ordinal='10' />
+                      <column datatype='real' name='F12' ordinal='11' />
+                    </columns>
+                  </relation>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<Offenders And Victims> - <Page Name>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Aboriginality of Offenders+ (Dataset 2 For Assignment 2)' name='federated.1t8xpyx1net15918kk4qj0w5q7os' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t8xpyx1net15918kk4qj0w5q7os'>
+            <column caption='Abduction and kidnapping (Victims)' datatype='integer' name='[Abduction and kidnapping (Aboriginality of victims)]' role='measure' type='quantitative' />
+            <column caption='Abduction and kidnapping (Offenders)' datatype='integer' name='[Abduction and kidnapping]' role='measure' type='quantitative' />
+            <column caption='Attempted murder (Victims)' datatype='integer' name='[Attempted murder (Aboriginality of victims)]' role='measure' type='quantitative' />
+            <column caption='Attempted murder (Offenders)' datatype='integer' name='[Attempted murder]' role='measure' type='quantitative' />
+            <column caption='Breach Apprehended Violence Order (Victims)' datatype='integer' name='[Breach Apprehended Violence Order (Aboriginality of victims)]' role='measure' type='quantitative' />
+            <column caption='Breach Apprehended Violence Order (Offenders)' datatype='integer' name='[Breach Apprehended Violence Order]' role='measure' type='quantitative' />
+            <column caption='Domestic violence related assault (Victims)' datatype='integer' name='[Domestic violence related assault (Aboriginality of victims)]' role='measure' type='quantitative' />
+            <column caption='Domestic violence related assault (Offenders)' datatype='integer' name='[Domestic violence related assault]' role='measure' type='quantitative' />
+            <column caption='Intimidation, stalking and harassment (Victims)' datatype='integer' name='[Intimidation, stalking and harassment (Aboriginality of victims)]' role='measure' type='quantitative' />
+            <column caption='Intimidation, stalking and harassment (Offenders)' datatype='integer' name='[Intimidation, stalking and harassment]' role='measure' type='quantitative' />
+            <column caption='Malicious damage to property (Victims)' datatype='integer' name='[Malicious damage to property (Aboriginality of victims)]' role='measure' type='quantitative' />
+            <column caption='Malicious damage to property (Offenders)' datatype='integer' name='[Malicious damage to property]' role='measure' type='quantitative' />
+            <column caption='Murder * (Victims)' datatype='integer' name='[Murder * (Aboriginality of victims)]' role='measure' type='quantitative' />
+            <column caption='Murder * (Offenders)' datatype='integer' name='[Murder *]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Pivot Field Values]' role='dimension' type='nominal' />
+            <column caption='Sexual assault (Victims)' datatype='integer' name='[Sexual assault (Aboriginality of victims)]' role='measure' type='quantitative' />
+            <column caption='Sexual assault (Offenders)' datatype='integer' name='[Sexual assault]' role='measure' type='quantitative' />
+            <column caption='Sexual touching, sexual act and other sexual offences (Victims)' datatype='integer' name='[Sexual touching, sexual act and other sexual offences (Aboriginality of victims)]' role='measure' type='quantitative' />
+            <column caption='Sexual touching, sexual act and other sexual offences (Offenders)' datatype='integer' name='[Sexual touching, sexual act and other sexual offences]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='None' name='[none:Pivot Field Values:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Abduction and kidnapping (Aboriginality of victims)]' derivation='Sum' name='[sum:Abduction and kidnapping (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Abduction and kidnapping]' derivation='Sum' name='[sum:Abduction and kidnapping:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Attempted murder (Aboriginality of victims)]' derivation='Sum' name='[sum:Attempted murder (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Attempted murder]' derivation='Sum' name='[sum:Attempted murder:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Breach Apprehended Violence Order (Aboriginality of victims)]' derivation='Sum' name='[sum:Breach Apprehended Violence Order (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Breach Apprehended Violence Order]' derivation='Sum' name='[sum:Breach Apprehended Violence Order:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Domestic violence related assault (Aboriginality of victims)]' derivation='Sum' name='[sum:Domestic violence related assault (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Domestic violence related assault]' derivation='Sum' name='[sum:Domestic violence related assault:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Intimidation, stalking and harassment (Aboriginality of victims)]' derivation='Sum' name='[sum:Intimidation, stalking and harassment (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Intimidation, stalking and harassment]' derivation='Sum' name='[sum:Intimidation, stalking and harassment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Malicious damage to property (Aboriginality of victims)]' derivation='Sum' name='[sum:Malicious damage to property (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Malicious damage to property]' derivation='Sum' name='[sum:Malicious damage to property:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Murder * (Aboriginality of victims)]' derivation='Sum' name='[sum:Murder * (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Murder *]' derivation='Sum' name='[sum:Murder *:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sexual assault (Aboriginality of victims)]' derivation='Sum' name='[sum:Sexual assault (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sexual assault]' derivation='Sum' name='[sum:Sexual assault:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sexual touching, sexual act and other sexual offences (Aboriginality of victims)]' derivation='Sum' name='[sum:Sexual touching, sexual act and other sexual offences (Aboriginality of victims):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sexual touching, sexual act and other sexual offences]' derivation='Sum' name='[sum:Sexual touching, sexual act and other sexual offences:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1t8xpyx1net15918kk4qj0w5q7os].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Abduction and kidnapping:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Abduction and kidnapping (Aboriginality of victims):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Attempted murder:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Attempted murder (Aboriginality of victims):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Breach Apprehended Violence Order:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Breach Apprehended Violence Order (Aboriginality of victims):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Domestic violence related assault:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Domestic violence related assault (Aboriginality of victims):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Intimidation, stalking and harassment:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Intimidation, stalking and harassment (Aboriginality of victims):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Malicious damage to property:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Malicious damage to property (Aboriginality of victims):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Murder *:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Murder * (Aboriginality of victims):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Sexual assault:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Sexual assault (Aboriginality of victims):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Sexual touching, sexual act and other sexual offences:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1t8xpyx1net15918kk4qj0w5q7os].[sum:Sexual touching, sexual act and other sexual offences (Aboriginality of victims):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1t8xpyx1net15918kk4qj0w5q7os].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.1t8xpyx1net15918kk4qj0w5q7os].[:Measure Names]' value='213' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1t8xpyx1net15918kk4qj0w5q7os].[:Measure Names]' value='376' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1t8xpyx1net15918kk4qj0w5q7os].[Multiple Values]' num-steps='9' palette='red_green_diverging_10_0' reverse='true' symmetric='false' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.1t8xpyx1net15918kk4qj0w5q7os].[none:Pivot Field Values:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t8xpyx1net15918kk4qj0w5q7os].[:Measure Names]' />
+              <text column='[federated.1t8xpyx1net15918kk4qj0w5q7os].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t8xpyx1net15918kk4qj0w5q7os].[:Measure Names]</rows>
+        <cols>[federated.1t8xpyx1net15918kk4qj0w5q7os].[Multiple Values]</cols>
+        <pages>
+          <column>[federated.1t8xpyx1net15918kk4qj0w5q7os].[none:Pivot Field Values:nk]</column>
+        </pages>
+        <page-trail-options enabled='true' mark-type='all' start='0' />
+      </table>
+      <simple-id uuid='{C05BCD46-FF64-4A68-98D8-43F7C12651E2}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='135'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='204'>
+            <card pane-specification-id='0' param='[federated.1t8xpyx1net15918kk4qj0w5q7os].[:Measure Names]' type='color' />
+            <card looped='1' type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>&quot;Unknown&quot;</bucket>
+          </multibucket>
+        </current-page>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t8xpyx1net15918kk4qj0w5q7os].[:Measure Names]</field>
+            <field>[federated.1t8xpyx1net15918kk4qj0w5q7os].[none:Alleged offender&apos;s Aboriginality:nk]</field>
+            <field>[federated.1t8xpyx1net15918kk4qj0w5q7os].[none:Pivot Field Values:nk]</field>
+            <field>[federated.1t8xpyx1net15918kk4qj0w5q7os].[none:Victim&apos;s Aboriginality:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2B291426-620C-4724-8042-60CFC9013342}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

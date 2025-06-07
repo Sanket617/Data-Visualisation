@@ -1,0 +1,1840 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0611.0333                               -->
+<workbook original-version='18.1' source-build='2022.1.3 (20221.22.0611.0333)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Alcohol related (Dataset 2 For Assignment 2)' inline='true' name='federated.0t6t6u70etbdg514rvh301o8tg96' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Dataset 2 For Assignment 2' name='excel-direct.04c1s9w072uajl13mrqzg0wowt17'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='E:/Visualisation COMP7016/Assignment 2/Datasets for Assignment 2_New_Raw/Data/Dataset 2 For Assignment 2.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.04c1s9w072uajl13mrqzg0wowt17' name='Time' table='[Time$]' type='table'>
+          <columns gridOrigin='A1:AJ24:no:A1:AJ24:2' lost='0' outcome='1' processed='315'>
+            <column datatype='string' name='Offence type' ordinal='0' />
+            <column datatype='integer' name='Sunday 12am - &lt; 6am' ordinal='1' />
+            <column datatype='integer' name='Sunday 6am - &lt; 12pm' ordinal='2' />
+            <column datatype='integer' name='Sunday 12pm - &lt; 6pm' ordinal='3' />
+            <column datatype='integer' name='Sunday 6pm - &lt; 12pm' ordinal='4' />
+            <column datatype='integer' name='Sunday Total' ordinal='5' />
+            <column datatype='integer' name='Monday 12am - &lt; 6am' ordinal='6' />
+            <column datatype='integer' name='Monday 6am - &lt; 12pm' ordinal='7' />
+            <column datatype='integer' name='Monday 12pm - &lt; 6pm' ordinal='8' />
+            <column datatype='integer' name='Monday 6pm - &lt; 12pm' ordinal='9' />
+            <column datatype='integer' name='Monday Total' ordinal='10' />
+            <column datatype='integer' name='Tuesday 12am - &lt; 6am' ordinal='11' />
+            <column datatype='integer' name='Tuesday 6am - &lt; 12pm' ordinal='12' />
+            <column datatype='integer' name='Tuesday 12pm - &lt; 6pm' ordinal='13' />
+            <column datatype='integer' name='Tuesday 6pm - &lt; 12pm' ordinal='14' />
+            <column datatype='integer' name='Tuesday Total' ordinal='15' />
+            <column datatype='integer' name='Wednesday 12am - &lt; 6am' ordinal='16' />
+            <column datatype='integer' name='Wednesday 6am - &lt; 12pm' ordinal='17' />
+            <column datatype='integer' name='Wednesday 12pm - &lt; 6pm' ordinal='18' />
+            <column datatype='integer' name='Wednesday 6pm - &lt; 12pm' ordinal='19' />
+            <column datatype='integer' name='Wednesday Total' ordinal='20' />
+            <column datatype='integer' name='Thursday 12am - &lt; 6am' ordinal='21' />
+            <column datatype='integer' name='Thursday 6am - &lt; 12pm' ordinal='22' />
+            <column datatype='integer' name='Thursday 12pm - &lt; 6pm' ordinal='23' />
+            <column datatype='integer' name='Thursday 6pm - &lt; 12pm' ordinal='24' />
+            <column datatype='integer' name='Thursday Total' ordinal='25' />
+            <column datatype='integer' name='Friday 12am - &lt; 6am' ordinal='26' />
+            <column datatype='integer' name='Friday 6am - &lt; 12pm' ordinal='27' />
+            <column datatype='integer' name='Friday 12pm - &lt; 6pm' ordinal='28' />
+            <column datatype='integer' name='Friday 6pm - &lt; 12pm' ordinal='29' />
+            <column datatype='integer' name='Friday Total' ordinal='30' />
+            <column datatype='integer' name='Saturday 12am - &lt; 6am' ordinal='31' />
+            <column datatype='integer' name='Saturday 6am - &lt; 12pm' ordinal='32' />
+            <column datatype='integer' name='Saturday 12pm - &lt; 6pm' ordinal='33' />
+            <column datatype='integer' name='Saturday 6pm - &lt; 12pm' ordinal='34' />
+            <column datatype='integer' name='Saturday Total' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.04c1s9w072uajl13mrqzg0wowt17' name='Time' table='[Time$]' type='table'>
+          <columns gridOrigin='A1:AJ24:no:A1:AJ24:2' lost='0' outcome='1' processed='315'>
+            <column datatype='string' name='Offence type' ordinal='0' />
+            <column datatype='integer' name='Sunday 12am - &lt; 6am' ordinal='1' />
+            <column datatype='integer' name='Sunday 6am - &lt; 12pm' ordinal='2' />
+            <column datatype='integer' name='Sunday 12pm - &lt; 6pm' ordinal='3' />
+            <column datatype='integer' name='Sunday 6pm - &lt; 12pm' ordinal='4' />
+            <column datatype='integer' name='Sunday Total' ordinal='5' />
+            <column datatype='integer' name='Monday 12am - &lt; 6am' ordinal='6' />
+            <column datatype='integer' name='Monday 6am - &lt; 12pm' ordinal='7' />
+            <column datatype='integer' name='Monday 12pm - &lt; 6pm' ordinal='8' />
+            <column datatype='integer' name='Monday 6pm - &lt; 12pm' ordinal='9' />
+            <column datatype='integer' name='Monday Total' ordinal='10' />
+            <column datatype='integer' name='Tuesday 12am - &lt; 6am' ordinal='11' />
+            <column datatype='integer' name='Tuesday 6am - &lt; 12pm' ordinal='12' />
+            <column datatype='integer' name='Tuesday 12pm - &lt; 6pm' ordinal='13' />
+            <column datatype='integer' name='Tuesday 6pm - &lt; 12pm' ordinal='14' />
+            <column datatype='integer' name='Tuesday Total' ordinal='15' />
+            <column datatype='integer' name='Wednesday 12am - &lt; 6am' ordinal='16' />
+            <column datatype='integer' name='Wednesday 6am - &lt; 12pm' ordinal='17' />
+            <column datatype='integer' name='Wednesday 12pm - &lt; 6pm' ordinal='18' />
+            <column datatype='integer' name='Wednesday 6pm - &lt; 12pm' ordinal='19' />
+            <column datatype='integer' name='Wednesday Total' ordinal='20' />
+            <column datatype='integer' name='Thursday 12am - &lt; 6am' ordinal='21' />
+            <column datatype='integer' name='Thursday 6am - &lt; 12pm' ordinal='22' />
+            <column datatype='integer' name='Thursday 12pm - &lt; 6pm' ordinal='23' />
+            <column datatype='integer' name='Thursday 6pm - &lt; 12pm' ordinal='24' />
+            <column datatype='integer' name='Thursday Total' ordinal='25' />
+            <column datatype='integer' name='Friday 12am - &lt; 6am' ordinal='26' />
+            <column datatype='integer' name='Friday 6am - &lt; 12pm' ordinal='27' />
+            <column datatype='integer' name='Friday 12pm - &lt; 6pm' ordinal='28' />
+            <column datatype='integer' name='Friday 6pm - &lt; 12pm' ordinal='29' />
+            <column datatype='integer' name='Friday Total' ordinal='30' />
+            <column datatype='integer' name='Saturday 12am - &lt; 6am' ordinal='31' />
+            <column datatype='integer' name='Saturday 6am - &lt; 12pm' ordinal='32' />
+            <column datatype='integer' name='Saturday 12pm - &lt; 6pm' ordinal='33' />
+            <column datatype='integer' name='Saturday 6pm - &lt; 12pm' ordinal='34' />
+            <column datatype='integer' name='Saturday Total' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Time]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AJ24:no:A1:AJ24:2&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>315</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offence type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Offence type]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Offence type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sunday 12am - &lt; 6am</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sunday 12am - &lt; 6am]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Sunday 12am - &lt; 6am</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sunday 6am - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sunday 6am - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Sunday 6am - &lt; 12pm</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sunday 12pm - &lt; 6pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sunday 12pm - &lt; 6pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Sunday 12pm - &lt; 6pm</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sunday 6pm - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sunday 6pm - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Sunday 6pm - &lt; 12pm</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sunday Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sunday Total]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Sunday Total</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monday 12am - &lt; 6am</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monday 12am - &lt; 6am]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Monday 12am - &lt; 6am</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monday 6am - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monday 6am - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Monday 6am - &lt; 12pm</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monday 12pm - &lt; 6pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monday 12pm - &lt; 6pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Monday 12pm - &lt; 6pm</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monday 6pm - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monday 6pm - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Monday 6pm - &lt; 12pm</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monday Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monday Total]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Monday Total</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tuesday 12am - &lt; 6am</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tuesday 12am - &lt; 6am]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Tuesday 12am - &lt; 6am</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tuesday 6am - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tuesday 6am - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Tuesday 6am - &lt; 12pm</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tuesday 12pm - &lt; 6pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tuesday 12pm - &lt; 6pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Tuesday 12pm - &lt; 6pm</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tuesday 6pm - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tuesday 6pm - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Tuesday 6pm - &lt; 12pm</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tuesday Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tuesday Total]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Tuesday Total</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wednesday 12am - &lt; 6am</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wednesday 12am - &lt; 6am]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Wednesday 12am - &lt; 6am</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wednesday 6am - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wednesday 6am - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Wednesday 6am - &lt; 12pm</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wednesday 12pm - &lt; 6pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wednesday 12pm - &lt; 6pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Wednesday 12pm - &lt; 6pm</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wednesday 6pm - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wednesday 6pm - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Wednesday 6pm - &lt; 12pm</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wednesday Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wednesday Total]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Wednesday Total</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thursday 12am - &lt; 6am</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Thursday 12am - &lt; 6am]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Thursday 12am - &lt; 6am</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thursday 6am - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Thursday 6am - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Thursday 6am - &lt; 12pm</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thursday 12pm - &lt; 6pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Thursday 12pm - &lt; 6pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Thursday 12pm - &lt; 6pm</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thursday 6pm - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Thursday 6pm - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Thursday 6pm - &lt; 12pm</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thursday Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Thursday Total]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Thursday Total</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Friday 12am - &lt; 6am</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Friday 12am - &lt; 6am]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Friday 12am - &lt; 6am</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Friday 6am - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Friday 6am - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Friday 6am - &lt; 12pm</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Friday 12pm - &lt; 6pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Friday 12pm - &lt; 6pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Friday 12pm - &lt; 6pm</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Friday 6pm - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Friday 6pm - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Friday 6pm - &lt; 12pm</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Friday Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Friday Total]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Friday Total</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturday 12am - &lt; 6am</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Saturday 12am - &lt; 6am]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Saturday 12am - &lt; 6am</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturday 6am - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Saturday 6am - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Saturday 6am - &lt; 12pm</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturday 12pm - &lt; 6pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Saturday 12pm - &lt; 6pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Saturday 12pm - &lt; 6pm</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturday 6pm - &lt; 12pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Saturday 6pm - &lt; 12pm]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Saturday 6pm - &lt; 12pm</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturday Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Saturday Total]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Saturday Total</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_481B797868C84B2F84B72F6C60EFCCCC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Friday 12am - &lt; 6am]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Friday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Friday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Friday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Friday Total]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Monday 12am - &lt; 6am]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Monday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Monday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Monday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Monday Total]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Offence type]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Saturday 12am - &lt; 6am]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Saturday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Saturday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Saturday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Saturday Total]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Sunday 12am - &lt; 6am]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Sunday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Sunday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Sunday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Sunday Total]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Thursday 12am - &lt; 6am]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Thursday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Thursday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Thursday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Thursday Total]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Tuesday 12am - &lt; 6am]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Tuesday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Tuesday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Tuesday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Tuesday Total]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Wednesday 12am - &lt; 6am]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Wednesday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Wednesday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Wednesday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Wednesday Total]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Time' datatype='table' name='[__tableau_internal_object_id__].[Time_481B797868C84B2F84B72F6C60EFCCCC]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Time_481B797868C84B2F84B72F6C60EFCCCC]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Time_481B797868C84B2F84B72F6C60EFCCCC:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Friday 12am - &lt; 6am]' derivation='Avg' name='[avg:Friday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Friday 12pm - &lt; 6pm]' derivation='Avg' name='[avg:Friday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Friday 6am - &lt; 12pm]' derivation='Avg' name='[avg:Friday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Friday 6pm - &lt; 12pm]' derivation='Avg' name='[avg:Friday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Friday Total]' derivation='Avg' name='[avg:Friday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monday 12am - &lt; 6am]' derivation='Avg' name='[avg:Monday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monday 12pm - &lt; 6pm]' derivation='Avg' name='[avg:Monday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monday 6am - &lt; 12pm]' derivation='Avg' name='[avg:Monday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monday 6pm - &lt; 12pm]' derivation='Avg' name='[avg:Monday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monday Total]' derivation='Avg' name='[avg:Monday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Saturday 12am - &lt; 6am]' derivation='Avg' name='[avg:Saturday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Saturday 12pm - &lt; 6pm]' derivation='Avg' name='[avg:Saturday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Saturday 6am - &lt; 12pm]' derivation='Avg' name='[avg:Saturday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Saturday 6pm - &lt; 12pm]' derivation='Avg' name='[avg:Saturday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Saturday Total]' derivation='Avg' name='[avg:Saturday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sunday 12am - &lt; 6am]' derivation='Avg' name='[avg:Sunday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sunday 12pm - &lt; 6pm]' derivation='Avg' name='[avg:Sunday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sunday 6am - &lt; 12pm]' derivation='Avg' name='[avg:Sunday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sunday 6pm - &lt; 12pm]' derivation='Avg' name='[avg:Sunday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sunday Total]' derivation='Avg' name='[avg:Sunday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Thursday 12am - &lt; 6am]' derivation='Avg' name='[avg:Thursday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Thursday 12pm - &lt; 6pm]' derivation='Avg' name='[avg:Thursday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Thursday 6am - &lt; 12pm]' derivation='Avg' name='[avg:Thursday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Thursday 6pm - &lt; 12pm]' derivation='Avg' name='[avg:Thursday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Thursday Total]' derivation='Avg' name='[avg:Thursday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tuesday 12am - &lt; 6am]' derivation='Avg' name='[avg:Tuesday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tuesday 12pm - &lt; 6pm]' derivation='Avg' name='[avg:Tuesday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tuesday 6am - &lt; 12pm]' derivation='Avg' name='[avg:Tuesday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tuesday 6pm - &lt; 12pm]' derivation='Avg' name='[avg:Tuesday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tuesday Total]' derivation='Avg' name='[avg:Tuesday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wednesday 12am - &lt; 6am]' derivation='Avg' name='[avg:Wednesday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wednesday 12pm - &lt; 6pm]' derivation='Avg' name='[avg:Wednesday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wednesday 6am - &lt; 12pm]' derivation='Avg' name='[avg:Wednesday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wednesday 6pm - &lt; 12pm]' derivation='Avg' name='[avg:Wednesday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wednesday Total]' derivation='Avg' name='[avg:Wednesday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Offence type]' derivation='Max' name='[max:Offence type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Offence type]' derivation='None' name='[none:Offence type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Friday 12am - &lt; 6am]' derivation='Sum' name='[sum:Friday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Friday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Friday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Friday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Friday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Friday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Friday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Friday Total]' derivation='Sum' name='[sum:Friday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monday 12am - &lt; 6am]' derivation='Sum' name='[sum:Monday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Monday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Monday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Monday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monday Total]' derivation='Sum' name='[sum:Monday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Saturday 12am - &lt; 6am]' derivation='Sum' name='[sum:Saturday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Saturday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Saturday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Saturday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Saturday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Saturday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Saturday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Saturday Total]' derivation='Sum' name='[sum:Saturday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sunday 12am - &lt; 6am]' derivation='Sum' name='[sum:Sunday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sunday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Sunday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sunday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Sunday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sunday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Sunday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sunday Total]' derivation='Sum' name='[sum:Sunday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Thursday 12am - &lt; 6am]' derivation='Sum' name='[sum:Thursday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Thursday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Thursday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Thursday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Thursday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Thursday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Thursday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Thursday Total]' derivation='Sum' name='[sum:Thursday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tuesday 12am - &lt; 6am]' derivation='Sum' name='[sum:Tuesday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tuesday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Tuesday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tuesday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Tuesday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tuesday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Tuesday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tuesday Total]' derivation='Sum' name='[sum:Tuesday Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wednesday 12am - &lt; 6am]' derivation='Sum' name='[sum:Wednesday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wednesday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Wednesday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wednesday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Wednesday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wednesday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Wednesday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wednesday Total]' derivation='Sum' name='[sum:Wednesday Total:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Monday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Tuesday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Monday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Tuesday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[__tableau_internal_object_id__].[cnt:Time_481B797868C84B2F84B72F6C60EFCCCC:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Thursday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[pcto:sum:Alcohol Related^:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Alcohol Related^:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Thursday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[__tableau_internal_object_id__].[cnt:Alcohol related_7009E2585BF04F8B9A979A6BD5196EA1:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Thursday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Thursday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Monday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Wednesday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Monday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Wednesday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Monday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Tuesday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Monday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Tuesday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Friday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Tuesday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Friday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Tuesday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Saturday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Sunday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Saturday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Sunday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Friday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Thursday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Friday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Thursday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Saturday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Sunday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Saturday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Sunday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Friday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Tuesday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Friday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Tuesday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Monday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Wednesday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Monday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Wednesday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Saturday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Wednesday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Saturday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Wednesday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Saturday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Sunday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Saturday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Sunday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Sunday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Sunday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[:Measure Names]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Wednesday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[max:Offence type:nk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[none:Offence type:nk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[pcto:sum:Total:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Total:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Wednesday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Friday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Tuesday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Friday Total:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Tuesday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Thursday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Not Alcohol Related:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Thursday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Saturday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Sunday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Saturday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Sunday 12am - < 6am:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Monday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Wednesday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Monday 6am - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Wednesday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Friday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[avg:Thursday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Friday 12pm - < 6pm:qk]]]>&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;<![CDATA[[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Thursday 6pm - < 12pm:qk]]]>&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[max:Offence type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Abduction and kidnapping&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Intimidation, stalking and harassment&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Domestic violence related assault&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Sexual touching, sexual act and other sexual offences&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Murder *&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Breach Apprehended Violence Order&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Malicious damage to property&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Attempted murder&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Sexual assault&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Offence type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Abduction and kidnapping&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Intimidation, stalking and harassment&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Domestic violence related assault&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Sexual touching, sexual act and other sexual offences&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Murder *&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Breach Apprehended Violence Order&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Malicious damage to property&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Attempted murder&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Sexual assault&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Australia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Time' id='Time_481B797868C84B2F84B72F6C60EFCCCC'>
+            <properties context=''>
+              <relation connection='excel-direct.04c1s9w072uajl13mrqzg0wowt17' name='Time' table='[Time$]' type='table'>
+                <columns gridOrigin='A1:AJ24:no:A1:AJ24:2' lost='0' outcome='1' processed='315'>
+                  <column datatype='string' name='Offence type' ordinal='0' />
+                  <column datatype='integer' name='Sunday 12am - &lt; 6am' ordinal='1' />
+                  <column datatype='integer' name='Sunday 6am - &lt; 12pm' ordinal='2' />
+                  <column datatype='integer' name='Sunday 12pm - &lt; 6pm' ordinal='3' />
+                  <column datatype='integer' name='Sunday 6pm - &lt; 12pm' ordinal='4' />
+                  <column datatype='integer' name='Sunday Total' ordinal='5' />
+                  <column datatype='integer' name='Monday 12am - &lt; 6am' ordinal='6' />
+                  <column datatype='integer' name='Monday 6am - &lt; 12pm' ordinal='7' />
+                  <column datatype='integer' name='Monday 12pm - &lt; 6pm' ordinal='8' />
+                  <column datatype='integer' name='Monday 6pm - &lt; 12pm' ordinal='9' />
+                  <column datatype='integer' name='Monday Total' ordinal='10' />
+                  <column datatype='integer' name='Tuesday 12am - &lt; 6am' ordinal='11' />
+                  <column datatype='integer' name='Tuesday 6am - &lt; 12pm' ordinal='12' />
+                  <column datatype='integer' name='Tuesday 12pm - &lt; 6pm' ordinal='13' />
+                  <column datatype='integer' name='Tuesday 6pm - &lt; 12pm' ordinal='14' />
+                  <column datatype='integer' name='Tuesday Total' ordinal='15' />
+                  <column datatype='integer' name='Wednesday 12am - &lt; 6am' ordinal='16' />
+                  <column datatype='integer' name='Wednesday 6am - &lt; 12pm' ordinal='17' />
+                  <column datatype='integer' name='Wednesday 12pm - &lt; 6pm' ordinal='18' />
+                  <column datatype='integer' name='Wednesday 6pm - &lt; 12pm' ordinal='19' />
+                  <column datatype='integer' name='Wednesday Total' ordinal='20' />
+                  <column datatype='integer' name='Thursday 12am - &lt; 6am' ordinal='21' />
+                  <column datatype='integer' name='Thursday 6am - &lt; 12pm' ordinal='22' />
+                  <column datatype='integer' name='Thursday 12pm - &lt; 6pm' ordinal='23' />
+                  <column datatype='integer' name='Thursday 6pm - &lt; 12pm' ordinal='24' />
+                  <column datatype='integer' name='Thursday Total' ordinal='25' />
+                  <column datatype='integer' name='Friday 12am - &lt; 6am' ordinal='26' />
+                  <column datatype='integer' name='Friday 6am - &lt; 12pm' ordinal='27' />
+                  <column datatype='integer' name='Friday 12pm - &lt; 6pm' ordinal='28' />
+                  <column datatype='integer' name='Friday 6pm - &lt; 12pm' ordinal='29' />
+                  <column datatype='integer' name='Friday Total' ordinal='30' />
+                  <column datatype='integer' name='Saturday 12am - &lt; 6am' ordinal='31' />
+                  <column datatype='integer' name='Saturday 6am - &lt; 12pm' ordinal='32' />
+                  <column datatype='integer' name='Saturday 12pm - &lt; 6pm' ordinal='33' />
+                  <column datatype='integer' name='Saturday 6pm - &lt; 12pm' ordinal='34' />
+                  <column datatype='integer' name='Saturday Total' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Alcohol related (Dataset 2 For Assignment 2)' name='federated.0t6t6u70etbdg514rvh301o8tg96' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0t6t6u70etbdg514rvh301o8tg96'>
+            <column datatype='integer' name='[Friday 12am - &lt; 6am]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Friday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Friday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Friday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Friday Total]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Monday 12am - &lt; 6am]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Monday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Monday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Monday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Monday Total]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Offence type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Saturday 12am - &lt; 6am]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Saturday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Saturday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Saturday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Saturday Total]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Sunday 12am - &lt; 6am]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Sunday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Sunday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Sunday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Sunday Total]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Thursday 12am - &lt; 6am]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Thursday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Thursday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Thursday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Thursday Total]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tuesday 12am - &lt; 6am]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tuesday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tuesday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tuesday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tuesday Total]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Wednesday 12am - &lt; 6am]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Wednesday 12pm - &lt; 6pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Wednesday 6am - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Wednesday 6pm - &lt; 12pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Wednesday Total]' role='measure' type='quantitative' />
+            <column-instance column='[Offence type]' derivation='None' name='[none:Offence type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Friday 12am - &lt; 6am]' derivation='Sum' name='[sum:Friday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Friday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Friday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Friday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Friday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Friday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Friday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Friday Total]' derivation='Sum' name='[sum:Friday Total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Monday 12am - &lt; 6am]' derivation='Sum' name='[sum:Monday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Monday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Monday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Monday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Monday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Monday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Monday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Monday Total]' derivation='Sum' name='[sum:Monday Total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Saturday 12am - &lt; 6am]' derivation='Sum' name='[sum:Saturday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Saturday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Saturday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Saturday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Saturday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Saturday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Saturday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Saturday Total]' derivation='Sum' name='[sum:Saturday Total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sunday 12am - &lt; 6am]' derivation='Sum' name='[sum:Sunday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sunday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Sunday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sunday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Sunday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sunday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Sunday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sunday Total]' derivation='Sum' name='[sum:Sunday Total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Thursday 12am - &lt; 6am]' derivation='Sum' name='[sum:Thursday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Thursday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Thursday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Thursday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Thursday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Thursday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Thursday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Thursday Total]' derivation='Sum' name='[sum:Thursday Total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tuesday 12am - &lt; 6am]' derivation='Sum' name='[sum:Tuesday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tuesday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Tuesday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tuesday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Tuesday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tuesday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Tuesday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tuesday Total]' derivation='Sum' name='[sum:Tuesday Total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wednesday 12am - &lt; 6am]' derivation='Sum' name='[sum:Wednesday 12am - &lt; 6am:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wednesday 12pm - &lt; 6pm]' derivation='Sum' name='[sum:Wednesday 12pm - &lt; 6pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wednesday 6am - &lt; 12pm]' derivation='Sum' name='[sum:Wednesday 6am - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wednesday 6pm - &lt; 12pm]' derivation='Sum' name='[sum:Wednesday 6pm - &lt; 12pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wednesday Total]' derivation='Sum' name='[sum:Wednesday Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0t6t6u70etbdg514rvh301o8tg96].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Sunday 12am - &lt; 6am:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Sunday 6am - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Sunday 12pm - &lt; 6pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Sunday 6pm - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Sunday Total:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Monday 12am - &lt; 6am:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Monday 6am - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Monday 12pm - &lt; 6pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Monday 6pm - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Monday Total:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Tuesday 12am - &lt; 6am:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Tuesday 6am - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Tuesday 12pm - &lt; 6pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Tuesday 6pm - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Tuesday Total:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Wednesday 12am - &lt; 6am:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Wednesday 6am - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Wednesday 12pm - &lt; 6pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Wednesday 6pm - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Wednesday Total:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Thursday 12am - &lt; 6am:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Thursday 6am - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Thursday 12pm - &lt; 6pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Thursday 6pm - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Thursday Total:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Friday 12am - &lt; 6am:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Friday 6am - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Friday 12pm - &lt; 6pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Friday 6pm - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Friday Total:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Saturday 12am - &lt; 6am:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Saturday 6am - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Saturday 12pm - &lt; 6pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Saturday 6pm - &lt; 12pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Saturday Total:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <natural-sort column='[federated.0t6t6u70etbdg514rvh301o8tg96].[:Measure Names]' direction='ASC' />
+          <filter class='categorical' column='[federated.0t6t6u70etbdg514rvh301o8tg96].[none:Offence type:nk]'>
+            <groupfilter function='level-members' level='[none:Offence type:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0t6t6u70etbdg514rvh301o8tg96].[:Measure Names]</column>
+            <column>[federated.0t6t6u70etbdg514rvh301o8tg96].[none:Offence type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='stroke-size' id='refline1' value='1' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='solid' />
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0t6t6u70etbdg514rvh301o8tg96].[none:Offence type:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0t6t6u70etbdg514rvh301o8tg96].[Multiple Values]' enable-instant-analytics='true' formula='total' id='refline0' label-type='value' scope='per-pane' value-column='[federated.0t6t6u70etbdg514rvh301o8tg96].[Multiple Values]' z-order='2' />
+            <reference-line axis-column='[federated.0t6t6u70etbdg514rvh301o8tg96].[Multiple Values]' enable-instant-analytics='true' formula='total' id='refline1' label-type='value' scope='per-pane' value-column='[federated.0t6t6u70etbdg514rvh301o8tg96].[Multiple Values]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0t6t6u70etbdg514rvh301o8tg96].[Multiple Values]</rows>
+        <cols>[federated.0t6t6u70etbdg514rvh301o8tg96].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{EFE8B816-78C5-4379-BEE4-CE88049AE522}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='148'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0t6t6u70etbdg514rvh301o8tg96].[none:Offence type:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0t6t6u70etbdg514rvh301o8tg96].[none:Offence type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0t6t6u70etbdg514rvh301o8tg96].[none:Offence type 1:nk]</field>
+            <field>[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Not Alcohol Related:qk]</field>
+            <field>[federated.0t6t6u70etbdg514rvh301o8tg96].[sum:Total:qk]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='2' />
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{AFC70122-2549-4656-9A2D-7628DA1A72C2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nOy9V5dc15Xn+Tvn2nBpYRIgCAJ0IkUjSpShKJWqStXVtcb0TM9Mv8yaL1Nf
+      ZZ7mqburqqtKKiOpRFEi5cgSPQmS8CZtmOvvcfNwIxOZyEgYAkQklPivlTARN2/se+Lss/3e
+      wjnneIiHOKCQ0ybgIR5imnjIAA9xoHFfGMAYcz8+5iEe4o5xXxjAWns/PuYhHuKO8VAFeogD
+      jYcM8BAHGg8Z4CEONB4ywEMcaDxkAEBpw3/72TvTJuMhpoCHDABobXj/zIWH3qoDiIcMAORl
+      RV3kVLWeNikPcZ/xkAGA4Sgj1CWVUtMm5SHuMx4yANAfJsyiqR9KgAOHhwwADIYZc1ZT1g8l
+      wEHDQwYA0iznkOcoymrapDzEfcZDBgDyYcKxAJI0nzYpD3Gf8ZABAJ3lRALKopw2KQ9xn3Hg
+      GUAbA3lCIAV18VAFOmg48AxQVoqWdYQCkmHKwwrRg4UDzwBJVtDFEApQZcnD7X+wcOAZIM0K
+      Wk4TCoEqCpx9yAIHCQeeAYZpQVuAECCr6qEKdMBw4BkgzQrmvObftiyxDxngQOHAM0AyGBGJ
+      8X+qCmMenIzQ1X7Kbz+4MG0yHmgceAaosxxvzAAzEgZJNl2C7gDL6wPe//TStMl4oHGgGcBa
+      i8ly/DEDtCRk+YMTDEvTnHQ0mjYZDzQONAPUSiPrEn/8/64HWVZMlaY7wXAwwuYPjsTajzjQ
+      DFApjahqhGhEQFcKhg+ICuScoxgmBMWDQe92XFoZsLyRTJsMgK3D70CirjWhqrZWoS0hzx+M
+      dAhrHXWaElQl2hh8z5s2SbeNd89cohOHHF3oTZuUgy0BsqIktteLYLregyMBlDaIsmTRcwyT
+      ByuLdTAYkGb7Y50PNAMkSc7MtoNTCqjzB2MzKa2hyOlKwegBY4C8P6RK0mmTARxwFShJUrpi
+      52uifDC8QHlZEVQlc4EgyR8cw905hxsNUcH+OHv3BxVTQjJMacnmS1HDxp1o94lovhVGSc6C
+      19gtG4P9cZreDspa0VI1Ji8x+6ANzYFmgDzNaXsCZy3p8jWccwTOUD0AtcEb/REdTzDrOUYP
+      UCVbf5iyICy+KimretrkHGwGqLOUSAis1uRBgLOWDo70AQiGDQcJMxJiKcgeEMMdYDDK6GEI
+      tdoXXTgONAMUowwpwGhFOj+HM4bAWvIHoDg+SzM6YwNeVvufYTex1k+YlRavrigeSoDpwVqL
+      LBrVodaG4tAi1lpiDHkx/S/mVsj6I2IpEEA1enAq2UbDhDlP0MHti3U+sAxQVDWRaURwbS3V
+      wnzDAM6RPwDF8Tq5ngMUm/qBsFsAylGCJ2DWg8Fo+sb7gWWA/jDdqgMoPIman0cbzYznyPd5
+      cXxZKaK6oVEIQWgNRTn90/RW0MZgkhG+gFiyL2yXA8wAGTNe4wItwxAbBiigLQXpPg8sDZOM
+      WXHdhRgbvS/06VuhqhRBVeEBsYDsQZUAVtecOXOGUhmsKvjDb9/g8npGlo2oKs1o7Rq52t86
+      6cYwZc5zOGspux2s71MLgSfAVPtbAmwMU7ri+vqGRpPtc6kFTQzAryuEEMQSiiyfuu3yhRgg
+      H/VJ6xpVGS5//iHzp57jwsfv0R+uk2ys8tHFAa19HmMepTk9T2KVoprp4cKQWkg8IN8nYfq9
+      sNZPmN+WwtGT7oHoapekxZbqFglBlWZTZ4AvtE27C0dZTFMEYFTAocUZ1OWYok75za9+x/f/
+      839BCIHWGuccxpipP+iNSAYjIiy1UlTtNgYofQ9hDSrPKcsKKcUt7zMNDIcjHhWWzfHLbQHX
+      hil1vb/VoLWNAXPSYkyzF0yWUtU1npyeJv6FGMAaTV0rqqrGCzUry+ss5yUnjxzhT3/4J3z6
+      wfssvvwcvn/99kEQ3DOi7wmKHCklxlpMr4vneahWTKgtvtYIKQnDfUbzGNkoI/Yk3phBY+dw
+      dU0YhlOm7OZIRhlLvsTzmg0vkhLf9wn86akLX4j1RqsXWVnZ4MyZzzh0+lny5bM8/tUXWZg7
+      RG/hMM89eZS8mn6ex14w1mLHCWSVc9hWq/l3EIBzSK2alon7EM45bJpu1TEDBKKRaPsZzjnS
+      QZO+sYnYabIp1198IdabWzrNq0unt/7//Evf3PF+GB6+O6q+ZNS1JjYaBFS+hxsXk6huFztK
+      CZxC6/3JAEobvKpgu3IWCrBV3QT3pqhO3ApFkhJvI2/WEwySjLmZztRo2r+r9SUiy0sio2Ds
+      AnVyzACdNkYpqCoqNf08lUnI8pKwrhGAs7ZJ3xACnef7uqWLo6kD8MV11p31mvFU08TBZICi
+      IjS6cYG22zDWSU27jbaWGLtvg2F5WRPppo5Z5znZ1asIAaKq0PsgvXgvWGMJbijgn/EE64Pp
+      1gYfUAYo6TqDtZaqFW+9bqMIZS09KUjS/VlkkmQFHdeoZ8paNql0eY7Zp2obNP2WemInfT2v
+      qcqbJg4kAwxHGTOewxpD3b2uf9pOm9paYunIsv3pVx8MEuZk40YsgLTT0B87s69nnK2sD5n3
+      drqVW1KQTjnmciAZIBmlxFKgtEZ3uzveq6KQlhRU+zQhLh0lxFI0KRy+R9FpPFgz+0CfvhlW
+      N0YsTHC5iOKhBLjvqLKMUEDtHCaKdrxXhkGTp7IPI6uNKzGhJQHnyKOIcmEBqxQdyb6uDOsP
+      UxbGLfh0nmOKRnkzyXRTuQ8cA1hrqZKGASoBdpsNAFBHERF2XzKAdY46y4hk8xxFu0U9M4Op
+      a7qeYDTcvykcWX9ANA7claMR5bj7RsvqqRYgHTgGMMbiqpJAQBkEuBuikKrTwTeaeh+WRVpj
+      UUmKPy7jrHpdVLeD0pqWaFq970dY67DbdP0kDCjHzBBZQ5JNb60PHANoY3FFiRSCIgyayRjb
+      UHfaWGOwU9ZNJ0Fbi182m7xWinpuDttpo4xp+prug/z6SajqmqhuNrlzjrTVohinbXSxlFOs
+      ZTiADGCQRY4zpokB3Ph+HKON2UqV2E9Is5LYNJulchbdbmGjmArwhKDapy1dhmlB2zQeKqc1
+      +eICZRzhrCW2muEU1c09GcBZizEWa+0f1eC4oqyJrMbUNdXc7K73TaeDNgZP1fsuH6g/TLZc
+      iaUQTQ6ToJFkAMX+Y1pootedcQtKXdcU83MUnQ7WGOZ8wWCK3qs9coEMr//D/8tb15Z4akHx
+      5//X/07r/tL1pWGUZMx5Al3Xu1ygADYI0DRuxSQtmJ/dfc20sNFPmBkzQB6F4HlNOke73aRF
+      lAXaWHxvfwn2tf5oXMEmqJRCzc5S5wV2MCL2fbIpxgL2WCmHNoJs5XMuD6s/Kj2pP0wbP7/W
+      mO7uJCzne1S+RyyYqmiehPX+qCnjNIZ8k3YhqNstrNZ0hdmXBf3JKN3qwVoKgWnF1DM9jDH4
+      AtQUg457SACPl//kr+guXeDQyafYn1nxXwxpknHMg5rradDb4aSk8rx92SArS1J6Hpiypjx+
+      dOv1qtvFDUa0gUGSM9PdbdtMC8450v6IUDT/zqLG86bbbWpjiARUaYa1bioFSHsc7pZrFy7S
+      Hw358f/4Mfu7zujOMBqldCXkcTz5As+jjmPa2H0XWa1HCZ4QKFWjtqlvqt1Ca01PWop9lsRn
+      nUOlCZEYS65OF6TExhGlaFK5ZV1Nzd7aU7upipw0TdHqj8sIzpOMGEd1QwR4C0JQRxFt7L5q
+      NWKMxaWNrlwZg+5dHy6hux2UMbRw9PeZK1QpA0W5Fbso5mZACGwYUo/rMFxZUk8p/XyCCmQp
+      84rTL3yTx553SC9gj7PygYRKUpw1lHMze15TRwE9ub+azuZlteVJKaTEbit/tGFIJQWzHny+
+      z7JYa6URWYaIm+zVapNxPW9LCvtVhdo/DJDzr//9b9gYF1d05h/jf/lPf/pHwQTGWmRZYI2m
+      ard3BcE2odptsBtU+ygjdJjktG1Tw1C0Ws00jzGc71NJyYJg6tmVNyLNCyJVQuxRaY3uXLdP
+      yiiAShNoRVHVzE+BvgkqUJf/9f/5v3n6qM+lixsMBxvcf9Pky0GSFXRMjdKaekIMYBN1r4dW
+      NdVwfwxyg2Ym8BwGqzXp7MwO5nVBQBGGSGeph/urNnh5tc/RoMleTXwPs812KRYW0VXFot94
+      uKaBPWwAQ5r7HDt+jI7T7K9w0BdH05rbUVmLmeAB2oRtxWgh8NT+mRw/SjIWPNBKUc7N7ZRe
+      QlD0Okgctij2xeCJTfQ3hsyOYxdJu9XELsao52ZRStHzmnbv08AEFSjhX/72F8w98QJPxpq+
+      nfmjUH8A0rykKx2VFNhg734ANgioccS2GZbRbu1hMN9HJIOEWIJyjnpmd3CuimPEKCNQTaPc
+      djx9mqHpBv3MOHZRzO+UuqbTpjKalhRcmFIm6wQJ0OE733+ZavUcr73xWz5855M/Gjdof5g2
+      yVdhuCsLdDtcGKIQtPbJtBjnHCpJmgxW5zDxbumlZmYwSiHV/hg8sYmsPyQSoMqSan5ux3su
+      jqlcM+YpS6fjvZrAAJYrF84zzArieIbjjx7hwZlAe3MkacGMdJRRtEMU74KUlFFIaPS+KDPU
+      xmLzHF803etstLsBlh4X9EdG7auOFiZJEEJQ1xVqfreZm3faRFJQTokBJhyDCuf1+Nb3/4JD
+      8zPIPTwlDyKyUYLEUbVvndlU+T5+pSn2wbSYulZ4VYV0jjwIYIL0snFEZQ2+UvsmGFaUFWFV
+      gg+5kNgJ616229haTS2RbwIDtHj2xWfvPyX3AS7PQWuqCUlwN6Jqt4iLfKrFGpsoa4UsS5xv
+      KWYnT1e3rRYVsOCLfRO/2BhmzEvbpEN0J7udq24bt7yGqROsc/f9wP1jynO7KbQ2mDzHaoWa
+      kAS36/puh65R+6LKKs0KYl1jtKbsTWYAhKCMYyIJ6T5hgP4wZUa4JgViD7qrXg9tDDNTqmk+
+      MAxQ1opYK4yzmNtQgepuF99qyn1QGDNMchZ9UHVNPbN3BLsIAyIcxT4J4K31R8x7TQ1AOTOZ
+      AXS3i9KarmyGltxvHBwGqBSyrqmsw+6VCLcNttUCrdD7IL14OO4EURozMYV7E9XMDJHVpMNk
+      X7SjHw5GzHmglKKenRx4NHFMLWBWuqlI2wPDAFXdtBQsAx93G23ETSsGtz9O09FgSEcKCilx
+      N2HeutMmNJoqL/dFAmM5TBACSinRncmM63yf0vPoSMfGFGIBB4YBhkneZHjeZoDIhSEIUEU5
+      9WhwNkppS8hvkeevu12c0eiigClLgCZ7NUECue/h9gg8Ot+jiCLmZTP77H7jwDBAmhbMCNsk
+      wd0OhEDHIaaspp5aoEYJntF7GpKbaNKiNTab/uihoqyIVY2wlrzVwu01IEVKyjjGd3YqsYAD
+      wwBZkjZpAjcxIm9EFQbIqsROkQGcc6g0xdQ15ezNaXdBQOV5uDzHTlkHSosKry4bD9CE1I3t
+      qFoxzlnsFNTNA8EAzjnS4YjAKFRntwRwzlHp3RHfutttui5PUQVK85K2rqmNQfVuvpGclBS+
+      T3cftEkcpTkdo1FaU+5hAG+inm3SOEyW3fe1PhAMAFAXFcLZiZ0glNV8tn4R67YtvhDUcYys
+      StQU2473RxmLXtMHyLRvEb8QgioKmRGW0ZQLY0ZJzrwHtVZ7GsCbUJ0O2lpaRlHe53nHB4IB
+      rHXoLMd6YlcvUIC8LhBuY5cUUHFEF8Nwij3sNwYJPQ+KwN/TkNyClFTt9r6oZ+6vD2jLpoW7
+      uUXk3bZa1NYQTGHg910zgK5zzn32KWcvr1DXJVpbymxEbfaDI66Bcw6VZVS+j5swQyspB3SD
+      mkLtPDV1u03gLOkUXaEr60PmhCOPW1uzzG6GqtOhJyz9KRbzOOfIBqMmyzMIcLeYtmnjiFJ6
+      xFrd94Hfd80Ag/UrDBJNFPisrV0lHY149/3P9lUVmdIGmWdNFugNuSbOOWo9JPQshdrpPdHt
+      FgHT7bWTJBkzwlJ02nAbA/BUHBE5M9WWLtY66jQjwpHfwm4BQEqKVkN3dp/pvusBraZIuXxt
+      A7/bY95P+dlrb/G9/+3/IPD2z6DsYZISa0Xe6WKcg20tOHJVIUmRGIp6gLFL15nX8wgl9Puj
+      qQ2hzvtDrFYU7RbmhtYhSZXRLxNOzi5tvVZ3OgRWMxpMj2alDdVohK0rsqVDu+iehDwMWVCa
+      1fUB9cmjt7z+XuGuGaB3+DR/efJ53v7VG7SfPMGr3/065z89y+EXn9g3g7KTtGRWWlS7hXeD
+      GlEUObFv8TwPqXKEAG88NVIEIZ4vUUpPZQi1tQ5ZZBhj0HNzO2h3zpHVI5Tu43mPXH+93UJL
+      iSvLqQ3O1qYiKHO0VejZ2V1rPgn13CxhsoKt1X2l+65VIKdzfvfGL+meeILFziwzRx7l9GGf
+      pNg/lcSjNCN2ZkczKWg2UalGBF4jnQJPUajrOqgLfIIwIJ2SQVnWNYFSYw/QzgQ+5xzajghE
+      upNmP6ASApflU5O6o6yg5yyV1qgJcZe8rnbQDE0ek6dr0vtc1H/XEqAzf4xX/+TYjtdarcfu
+      9rb3FP1ByiKG9RvcccZarB0hx6sQeZZRNaIbjWMFnkcd+JTpdOpVk7Sgo2sKKXcV8VdGgUuI
+      fUNW57SCJsXDRSGl7+GpCqUN4a08R18CVtcGzPuQyXCi52olXSb2I1rBdVXHdDo4o1BFeV/r
+      Ag6EG3SU5oS+3D0PTFd4XDe6fAmV2nkC1a0YN6VqpbysiK1qhkncUAWWVAmhVIQepNVgx3tl
+      HNGZoiG8tjFkVlryTmeX4W6sxZgNStXfEXcxnTZYi8rub+DxgWaAtdUN/u4fX+Oz81dvGkBR
+      aYqV7HLHjcohgbezftbabEefyioK0VNSJzaGKV1ryCfUL2TVOuFYtbY2QdvrNJdRRGTU1IZ9
+      j0YpPWcaz9UNJ3lSZUReDi6h3h53kbIZmlHe39ST+y8f7xHOXlrmt3/zI17xas5+8j6/iWeZ
+      f/Jxnnv+SY4dnsffZnipJKWMol0JWaUeMXuDbe7LkkJX9LxGDVLdLqFOKGtFa0Ix+peJZJRy
+      xNRsLBzZ8boyGmOTrb0lKah0jR82jFLPzhAtX54aAyQbQwKjKW9oPuacI6n6xJ5FiibuEo9V
+      N4Qgj2NcmtxXCfBAMsD6IOHNf/wZf+bXRFLwQtvnOZfS//gPfPzR+7zeW+Twk6f4xnNPsjDX
+      RZQl5Q2bV1uDs6NdZaqxZ0mrhN7YDtCtFu3xaXq/GSAfpQitdhnvaZ3T8q5v7sjTZHVGZ8wA
+      qtulo2uSKVWzuTShMmZX9ZpxFmMGyAAC6UiqAXOtWYQQTepJp01rlJIV5X3rxfTAMUB/lPKP
+      //Wf+TMzIto2eVwKwWIgWHAWyhWGf1jhF7/+DdmhI/TKjGp+5ybK6oLI2602edJRmyYgJoTA
+      tFv44wDN4tzN05FvF1obhBR4NwlsWevIByOErjHbksmccyTlBm3/ukrmy8Yl6twiQghsu03P
+      6akUmORFRVCVFN5uw71JOckaV7MAVfdxnESMIy/lzAwzV4dsDFIOL9w8ge5e4YFigLKq+emP
+      f8Gr1Todf7KXoDnRBXM+/EkXTLGMFgVvzR7fcV1SDoj93Xq9FGBdjnUOTwhcEOBbfc9C9OvD
+      lF/85FeYWnHy+Wd58elHiSakChhrcGWJ9j3stiIe4yzaJIhtrnVPMu6qYPGEh+m0MUA1hRLD
+      UVYw4wyF7++wuZxzjMoBsX/dVglkSalq2mGTn1V32rSdua+pJw8MA9RK8z/+8Rd8ZeUi8+Ht
+      u8g8IZuuxNsMSecclRqwl5R1NqM2NS0ZY1stPOxdVys55zh7aZU3/vEnfNcktCWc+9ll/u4X
+      beKnnua7Lz/D/EwXbzzfSymDSVKKGwzgStf4It+luklRUGlFO/TA89Chf8+6WzvnuHB1nTf+
+      +RdUxhAfOcLJR5qfwwszeJ7ckmajJKfjFFkr3uUBqvWA1jYtMvYN/aJPO2zc6KbTIcQyGNw/
+      yfVAMIC1lp/+/Hc8fukzTkR37h+ujMFsiwEUqsKbsIk2EXqavM5pBTEIQdgK78qlqI3ht29/
+      zOXX3+A/tizeWHo9HcHTFKx/8jZvvvsHsqVHePbrz3LqRJOOEZUZxeHraldzig4Jvd21C7Gn
+      Sat06zRVUYDKcqy1yNvIIdoLxljefvcM519/gx8GNb4QlJfXuXr2A95WjmHYwVtcZP7oIQ4f
+      O0J/kLCga1ZndxruhaqQJDvW3JeQVn2cW2rUzTAkDOU9lwBFWTfpODRuWNx4eLdz+58BrLX8
+      25vv0X7/XU63vlhwpJJiRzF5roqJm2gTgXRkdcJiZwEA0YrIvyADFJXiH/75Vyyd/4Q/bTVq
+      1Y1Y9CWv+lAOL3H5Xy7xo3CG4OSjRHVF2VncciU6oFJ9ehOySkIPUpUAhwCwvS4uz1DaEIVf
+      jAHKSvGjn/6axc8+5AfBddpjKTkdw+kYoEKNLpMOLrP6vkM6wYJTXDy0uONew3JAO9idHeCJ
+      HGU0oT/OGvU90nuUyeqc44NPL/LxL3+LKyvA4TnXNAywFsk+ZwDnHH/44HPs73/Lc7GDbTmm
+      zjnyNGWAo20sse8ThCHS8xBSNp6FMYptWaBN+sOQSO7t1/ck1PXouiEcx5g7HELtnOPq6oCf
+      /Og1vp0ucyhgB02TEEvBExGcdiPKc+9jQ8072ybZGGt2uD+3QwhQZoh1FikkdbeLvZygtZlo
+      Y9yK9rV+wr/++Be82L/M0i1oD6RgXsL8WLL1K90EtsawzlGqdWYnONECWZFUKYv+PHhe466+
+      B5H3sqp54813KN5+mz9pObwbB/CNbah9zQAff3aJsz99je9HZscX4JwjH4346LETjJ59Bpll
+      BKOE1sYG7SSlm+W0lSaWkiAIKLfp0dZZlB7SvoWXTZJTGUXsh+hum3IwvG26rbV88OlFPvjX
+      1/gzUdAJ7kxySSFoezAAdOe692pUpbT8vQN+oSwpVEUnbKHaLUSxgrrD4XPWOj45e4l3/vnn
+      fI+c7h3SDuM+oDtUzhKPyZu6kbYDFtpzCCEoWjF6kN2V6ra2MeKnP36Np9Yv87W2hJsk5+9L
+      BrDW8un5a7z943/jLyKNf8Pmz4ZDPnr8MZKnn2oGrnW7VN0u1fFjDJxDaI2oa8LhiGg4otpW
+      TF4bhRS39o5EnqJUJbEfYtpt6vURxtgtI3UvGGP56RvvUL/9e/4sNDtovxM45yg9udUJ2jlH
+      Wm7Qvck3tj0eoLtdTJFTVQpu03trrOXf3niX8q3f86ehJvgCtDvndrRvady2Q6I9VE4pwNp0
+      y4NVd7tEK2vkZU23fWeTKaxtVJ73f/JzXqGgF92agfYVAzjnuHh1nV+//juOXbvIX8WwQ+2x
+      lkEy4uPnnqF47OTkm4xdly4IKDsdyuM7E/UGxZBQ3rp9eOxDXqfMtWZw7RaUK1RK0fb2Fh1a
+      G378o9c4evYMT8SCm508t4Rz5NvmGBhnUWaIuIk240nI1QDnFjGtmBm/yYM6emhu718aI8kK
+      fvaTNzly7hO+Ht/81LwZrFJk2wZhOByl2phot0CjuklSClXSjTrUszOE6gppVtwRAxRlzetv
+      /Dvu3Xf4D5G9pbq5iX3DAMtrA379m3dxn57hW75iJt7Jvc5aNkZDzjz/VYqTj37hzynViJnb
+      VIkrPcS5Y9h2G+q6Gfm5x3direVfXn+bI2c/4Yl48snjnMPUNetaUfo+3bwg9n2iIMALQ8Q2
+      ke+co9jmSixUSezd3BCXonHhGmeRvg+BT3Ib3SGyvOTv//u/8q3RVRb2oP12YZS6PgmSxm0r
+      3GS7ZROhZ0iqhG7UwbRaRKZilBUsHb69sXlr/RE/+/EveHztEqcicdubH6bMAM451gcJv/rN
+      +9QffcjXA81cBELs3vzracqnLzxHceKRPe52a2hrcG53+sNeEBQoo5FRiHRNi49JsM7xxlsf
+      4b/z7zwxwU3rnMNZS1YUnD28QP8rT2OjCFkrvCwlXlunNRjRGw7pWEdLSnzfpzi0sPX7o3JA
+      6N1an5cip9IVvhcho4DsFgX91lp+/trv+drwKgt76PubjLtSV2jPwzMGT2mkEEhASoncNL61
+      pl68vnGH5ZDIv/mQkUBCoobAEqbbIcIxuI0aDOcc73x4jvd+9jrfl/ltqTybv4dzWGOmwwCb
+      Xobf/f4D0g8/4ut+zUJrsspgtWatKPj0peeplpZ23+wOkNcloby9MkEhwKMiVyVh0ELDnuOS
+      Pvr0Emu/epPvTRC9zjmqsuSqJ7jy0gvURw5vvWdbHrYVow4dIgFWnENUFf5gSFAUlEcaX7p1
+      DqWHxLchuQJpyOuMTreN1woZ9m9uvL/z4Vmijz9gaQ8XszWGUVFw/uhh+s88jdueUm4Mwhgw
+      FqEVwlqc52HHuUvOOfJqnblbOByEAGuH1FoR+gFR7N+yr5F1jt/94RMu//Q1/rLj8MXem99Z
+      i9WaWikKa0k9Sd7pkM32psMA6xcu85O//ylfo+RItLeLzRrDtTzn8299A7Vw91Nkk3JANOEU
+      dc5R1gmtaGfyVuAZCpUxF7bxIp8s350OcXW1z1v/9G/8ZaR3FXFYrVnPUs4/+TjJ6VMTJ7vs
+      gGjiFWopZjurKasRZLcluQIJaT3AuUN4nRbDm8wNXuuP+Pi1N/nhDS5mGDcLKAqueIIr3/ga
+      9eLC7gEXnrfVqcJN0A0rrZDcnk8/9hVJlbHoz2HbMflob7qdc7z51kf0X/8lP+i4PfePc44i
+      Sbgy0yM9vEAxP08908NGEYwzg6fCAK0rF/kLm+BNyK7cLp6u5hlnv/sd9A1zcb8IrHPUekQ8
+      wRdd10Pa9QUq+SRhcN2D4UtI1AgrjhC2o13pEOuDhJ/+7b/yQ7/Y4TFx1pJlGednuqz94PvN
+      aKC7oD8pR3ckubQZ4XCYbpuiP1mVqGrFz/75l7xCtis4Z5Viva44/+gJkqeeuPk8tZtgUA5o
+      B7c3Yy3yHLkassgcamYGNZrMOM453vj9h2y8/kteaU3e/M45VFWx7CyXXnyO8lFYAaUAACAA
+      SURBVNjSnus/FQYQ7KzE2dQx67omt5ZRp0XWium/9ALmFv0wbxe1roF01zoYa1hggx8+9gR/
+      c2kF5z+2taiNUZlicdCOd7RKr2rFP//jz/l23SfelphXFwXXsFzeXPh7gLzu052QuLcXAlmS
+      1yWtbhd17vLEa15/810eW7lEL9rJuHmWcWm2x/LLX7tlQ6ubwTpHWa/v6f2ZBKUHaHMCPduj
+      vDrYCkRuv+ebb320tfknlU1ardkoci4+cozhU0/uVNkmYEo2AKiyoCpyMiEYddokx45SLi6g
+      u51GRN1F/sokFKrclf7gnKMuV3hlaYFeGPHCjM9beUIcXmc6X1Yoo4jaLYqxXqqN4e/+6Q1e
+      3LjCYng9wpylKWeOLzF8+tYLf7vQ1lDp4a6N5JyjqvrUakCve3rHRol9R1IlzLZbVGm6ayOd
+      u7zC8Pdv8bV2o/o45zBas1yVXHzmKYoTJxqf6l2gVBXcwvuzHY07tKDQFa1OG1OuU9WKeFsc
+      5Df//gn9X/5q4uZ3zpGNRlya6bLy3e9get3bkrpTYYDlxXk+fOI0+vAiembmC4vY24Vzjrwe
+      EsqdlUbalDweVxxpNfkzzy8c5oPRRVzQ3fJENS66lFYrIkubCOUvfvXvPHL2I47FzQIbrVnN
+      Ms4+/yzliUfuWl3bjqwuaPu7bQ9rFY/4Qx6fa/PaoE8rXth6z5eQ1kNs+ySh1/j4Z8bBqWGS
+      8csf/Zy/bFukaDZ/WZacWTrCxtNP7t3G/A7gnCOtR8R7RK2zYgWBpD1e9020fE1eJ8z2etiy
+      3GIA6xxvvXOGtdde55XY7tj8zSFWcNU5Lr/80g4nw+1gKjXByUyP0ROn0fPzX/rmh3ESmR7s
+      OtREvcrLhw5tnY6+9PjuoVnKamPrmkBCqRK8dkxZlLz13qeUb73N0+MDXuU5Z43mzKvfpnz0
+      xD3d/ADDoj+xbsFUV/nO4UM8ObvIcW+INjdsNpdSBR6hL7cmXWpj+OnPfsvXy/5WhDrPMj46
+      ssj6s1+5J5t/E3k1wJ+wuyqV8Wyc83ScUtU7DV1fNuqe9X2saFLgnXP8/t1PWX7tl+PNv20N
+      lGIlTXnv5AnO/eB7d7z5YR8Fwr5MVLpGstOtVtUpL/UkM+FO78XJ7ixLwyts2Dk86SNE0ynC
+      RoucX76Mt/wL/qJtEc6RpAmfHz1C/7ln7+nm2YSxFm0GO4pfAPJywHdmA+aiJsfplSOH+LvL
+      13CtR7eYORAVha4IOjHDJOeRowu888Hn9D7/hKOtRt9P8pwzj51g9NST91TlrI3C2AE35p8Z
+      q5izy3z7yHGscyxfvERlH0duNiITYEyCwoEvyIqKcxfPsPLaL/l2qLZOfqMUSZ5z8dAC669+
+      u4mWf8GD54HtCuGco9Q1WV1Q7xGg2sSoTAi3dX+w1tAyK7ywuPvE8KTk5YUZVLW29VogCwos
+      L6khf962oDWryYj3n3maja+98KVsftgsfil2fLfGKA7LDZ5buK4+zEctvjHro9T1EzX0DWk1
+      ImqFDJOMa6t9Pv35r3hpnBfYH4344CtPMnr6qXtub6VVRsvfbW+Z8irfP7JA6PnEfsB/OL5E
+      VVzCbWuP0gpqMlMSdWJ+/ua7LP/b63wn1E11nrWkScKnvse73/0Wa996uVn7u5C6D5wEsM4y
+      KjP6+QqSPgKNcSFCtBCiTRR06IQdWn641RmiUCN62560qjZ4dbGHt0fw5Ei7x2PhRa5YjSd9
+      Is+QUPNioLFlwQUsl1/5VqPC3QGcc9RGk1QpAkEv6hLeJDYwqoaE2+qWG2/ZKt9bWkTeQPtX
+      5w/xaXqJzLWRwsMTkKsU0W2z1h9x9sMzfN+rEM6xniZ88vUXqZaO3nOVDSCtNnZ5rcp6yLdn
+      PQ63rnuW5qMW350P+dVwY8seiD3HoOhzqtsm/PwMr8xIpBBUacoVT7L81a9QHD92z1TnB4IB
+      rLOkVU5S9inVGrGXMxM0CywEOKeBHFhHG+inkmXrAy1Cv4uzG1vfs7GK437Kqd4jewZQpBC8
+      cuQo/9+FS7TajxF4kJucJPBZ63bpv/j8bU2adM5hrKVQBUk1pFRDBCNiX+McDPIA6BCHc7SD
+      Hp2ojS99pBDYcdnm9uxPpTK+1rMsxrun3HhS8oOji/ztlWtEreNIITBmBJ1DvPnr9/g/uzVt
+      33E1Tfn82y+j5udva/M711ROlboir3OEEPgyIPR8POnjiab2QoomB6c2Cmv7O26tdckJb4Pn
+      F3bncD0zf4iV8grndYfAb43jGENa3R5fD2t0LVkzmotPP0H+2Ml7zrD7lgE2VZxhOaCsNxAM
+      aPmGCfMtdqxJ4EHgWaAe/wx3PKUqV/jWsYVdJ+iNaPshX+v5vFflhH4H5zKuvPoK4hYitwm4
+      KdI6Ja/7GJPii5zIN7tSAmJfAQO0HZCVkmEeIWSH0J8l8ttoM9rK/rTW0LUrvLCwN+MuRG2e
+      7Qz5uM4Jgw6RV1MEkv/EgJMi5LK2nP/2y6iFhYm/vwnnHMpo0jojrxO0GYJLiTyDw1E4iXUC
+      63wgAAKE8PFkhMXS2ua1ss7i1Vd59cTRiXQ3h80Rli9eRXmnkEISeQWjaJ714YDlp55g9OST
+      Eweb3OoZaqPJVUFRpzgccsuYkk0nCrEPkuEcbuzrVtSmplQFSudYV+KLjMir6d2dmreFWhU8
+      3VIcat1i1BBNesZz8wt8cmkF/Da4nEpCvFfk0WhGVUJWLYNLCb2atucQ3q1p9yX40gIFzhUY
+      t0ZRSmYju3X/srjGXyzN48u9Rb8Qgm8sHuH8xSsY/zShZxmFlkWVcl73uPjqK01UegL91jkK
+      VZJWCYXqbz1DJC2tXeu/qbMboMK5xtPmxhkVm91qGhflGn9+qEsv3DsuEvsBf3Z0nn+4doWo
+      9QiRp1nteJz5n/+qiQndYgHduMzRWEOuCpJyhDIjhEsJPTVeW9gcnjzWHRBuSgygTcmV4QVw
+      NcbmQE0gDb60hJIdnQPuFayzBHqZl4/dfu/5dhDy0mzAr5MhvvQoVUHsXw/M1EaTVglptY4x
+      fVp+TfeLOySA5nd9wfUvDVA659mOYal968hs5Pt8/9AM/7S+Ris+zFAXnP3KU6RPPoG7IfXE
+      WEupKwb5GqVax5cFsWcmli7eiuZxN5odUDrj2XbB6ZlbZ/AeaXX55mzBb5M+UbRAaVN0dHxi
+      tNc5N66P0JS6pFQppRqCywhkTew72rc0ERo2mAoD1OoqAWeJg/DLsMEmf2Y95JXZiNi7s0d+
+      Zu4w7w3OU/gzZHVKL+qR1jnDYh1j1om8go7vkF/S+APnLKFe5hvHjt12nvuJ3hwnhxe4onsY
+      l9F/9us7JIcymvV8g7JeRzIi8hTzd6Zh3BLGKrpmmZcP3V76eiNxD3Elv8iyaSNJ0UYTeD7G
+      WUpVUaiS2hTUOgNXIKiIPI0nLTNfUEuYjgokwBPuvm1+6yzz9Hl67sQdFUtAY1y+enieH6+t
+      kbse5+pVIi+n7dvbUm/uBk2Udp3/6cgcLf/OOOzVo0v814tXiYOYtMrpRm3SKh0z7gadoLxn
+      quUkum21zJ8uHSK8gwPHk5IfLB3jv124hB/GXBicRaDAlfiyJvIskXREQSNs7gXt+9YIvpco
+      i1X+4ugc/h7+buccziiEF0xkkOPdGY71L9L3Bnje/Zt0o03FE3HOsfbxXe85Z6nTBFsY/K6P
+      H7cR8vrX2QlCvjXf4vVBn/XsMv1MEcqEjm+/NGm1iboe8K1ZyeEJtpZzDl3mWFXhRxEyaO2o
+      hGsHIT9cWuRHy1eY3yPb817irhnAqoI/vP02hx9/kfmWxffblMkq/uzSnt0QenaNGXWOvPZJ
+      jUR6MUK28L2Q0N9tpIGj1iXGVGiT47maSBjmA0nseWhr0c6irMU6gQGMA+saM+2lmTbHOou7
+      7zre+PnqCL84hPFGEKeEvRZ+3APhIYTAE5LvHD7E319bQ8aTMzwnFcJshzY1ylQYUyAxCMA4
+      AcJHyqBxKcoA3wvYVKYDtcI3jx7ixo4YzijKlYy4eobYW6LOV6jERUxrhXCmhRc1tsLTcwuc
+      GV1g4M/gSe+uT8zbaRGvTc1RucGz8ztdnpt0V2t9guwZ2v4CpV6j9laxwRDZsgTthvZj7S4v
+      dBN+N7pCHM4SBu2t/qF3yxA3PoNwd9n4/uJHb8Hhp7n08fucOHWEloj4/NqIb339mS2bSCm1
+      Y0ZYtf4aavAmQkZoa0lVxbAq2KhK+nXNSDsK4+FJQSQUM77kcBwzG0bMRi26QXhLN+atYHVN
+      PRghRofoype26gCsVeTqKopr6GAdr+OQLR8vDPlwsMFqWVFaR2UFhbFoPBweRvgYPITwcE7j
+      u5oQS9sztKRlMY6ZDULmopi2HzbBHaMpjaLQikxpCqPJlKKyUDvBNxYXON7Z1hnOGurhCDGY
+      Z8b/Jp7caa1ap8mqC1TyHKKX43ciMgF/c3kFZKtxXYrNgnfZ/AiJEHKLbucsOIPAIHBI10Rh
+      QymRGJyt8USTKu4J8GhOaV84PAGh9Hj58LEdKpszmmo4gsEis8FL+HLCuCeTUahrKK7hogTR
+      coxEyZozrNSa9dpSuAhNiBEBvt9GygApZMNczuLY/NvirAUM1uqt55HOILHjH0Mg75oBHOfe
+      e49DX32B5Xf+gJ2TvPurj/jef/4vHG1f59RdDLD2c6r115BB70sXcbsotpZqNMJt9Oh5zxP5
+      e0dzrbUYl1HpFZS3CmGGCROCdoQXdRDSx1iLsgZlDdpaKmsIhKDlh0Sef9MO0LdNs3OYqkCt
+      Wtr6OVrB8VuumzY5pblCIS5RR+vYSOBFEdaLMGMvirYOi2NzBwgav7wvJaEUSCEJpIcUgkB6
+      d/wszjlUnmD6AR39VVrBsVv/Eo16p01BqVapvQvYeIDf87FRTGkdg6pkrSzZqDUaH4HFwxF5
+      glAKIikJpCD2fNq+jy8lgWyexZce3vh5hBB3LwEuffLvVJ1HWD5/lpOnDtPy2nx6YYWXX34e
+      f5wNdSMDmLOfkHz2E4w/wAQZXgx+K0YGMUI2luW9ZIzNKjOVj1Drkq59kThYasTq+L3ti9C4
+      9LZ9/ta/Hcom1GaFimVsOEC2LH67hRfG49P03tLtrKHeGBBkj9PxnkY6D1NVVHnKsEiorSKW
+      AZEfEkYxQRDhBQEiCBFC4HBYV1ObPjUraLGODUf4bR+vFeMFXw7dViuq9ZS4eIqO/wQCia1r
+      VFmQ5iOMNYTCxw8C/CDE8wKk7yE8v+losUmPAOMqKr1M7j7HtUaEMxF+q3tP6L5rBrCq5KMP
+      PmDxsWfphQbfb6HyPq41TzdqXG83MoD77Dz2s3MI3wcBymQoNlCsYYMUogoZS8TmgDVxcxKF
+      cDTi3G1F+BBiS2+02qA3LFH5JC15AqsUdVlQ1AW5KsmdosTguabLge/AEx6ekPhC4gkP6TUn
+      YCB9fC/Akx6e72FERe1W0N46Ns7wZzxkEDaBIa7XH0/8msRmOoe7zvSbdAuBLmvMikdHPY9T
+      AWmekOqCoVCUHpjt+d3O4VmHZxyhE0RW0pJ+wxh+SOAF+J7f2AK+h3YpyvXR3go2ypAtC55o
+      UkuERUgPIcXW39sPpRu7dmz7Iprve5Tj1ufo8iymcuRVzqjOSJyi8BzaE5s5LEgH0jZ/B7ZZ
+      +8A1p3UoPCI/IvQDAj/E9wKcb6jMCpV3CTGTE8y0d+wPIZrFvnEtN9doa7loDr67ZoDbwY0M
+      cPkPv+fKb35JMM4l8Z3AF7IRucJDSouUCjY3kHC7jBfrbCMqXZNYJjzXpLYKgSfd+It0SAnW
+      hKCOkitN7moK6VDSoYXA3YFUFw6EbT5HOvCcwLfgIQiQeFgEFRLbLO5YPxZCbrntPOk1MRih
+      EdJhrUYIi5C24WFhEZ7DCYcp29R6jpHTlNKiPIH7AgeesCDHm80b/2yueegkUgqkVXjC0kR5
+      LdJzzfoL3dAqBCIUSOlhx99L0xZl2/cimpQNU8xRqJgUTSEtWt7ZOk9c802aLYQIQiQIRTAe
+      uCGEA2mQcnPNHUjX1ICMQ9NibPs0Uevx9/JlMsDmpPgb+zw6a7HWsP1ctNZs0zHFtj/HvzO+
+      Ru6RCrB57V49Jd34T4cYp9/eSs3apHvvkOJmGu/OE9HtOu1vdp9b0+227niz5785TTfSY8af
+      dZ1SsbWRxfg+jQzbZN6977Wbbjemmzug+4teM3mtb5/mqUiAaV9jTNNs92bNV51zaK1vei9r
+      Lc65W05C32/PppTC9/2bHgD78dlu5xqtNZ7n3fTZtt/nvjDA9qJs5xzr1y6yOsiYPXSc44dn
+      d19jNFcuXWCUK46cOMlir7XrGnBsLF9meSOht7DEiaPzE6/JhxtcvLqKH/U4dfoRPK77goWA
+      uqow9vrpF8XRVq1sc80mTYrLFy+QFJqlRx9jvhvvusaqkrPnzlNrj8eePE078HY/m9VcvXSB
+      YVZz+JGTHJppT6S7v3KFa+sjuvNHObG0gNhxjaUsqutntvCI4nDrmu00mTrn3PmL1Nrj1NOP
+      0/LkDdc4qnTI+cvXwGvz+JMn8Sfcx6qSc+fPUynJySdO0wn9ic927fJFBmnFoeMnOTy789mc
+      NVRVvUW39HzCMLjh2ZrnL5M+F66sIPwOp594dIum7dck68tcWunTmlnk5CNHkLvodlTZiPOX
+      roJscfqpxwhuuM99iQTvCOTYAe98sMz3vv8icluYfPs1g2ufczUJeOGpU/jb/Mk7uTrl7Xcu
+      8f0ffH3P+4DmD2+9x1dfeYWWJ7fK365fY+mvXGOw1fAq4NRTp4gmeKHWL37CajXDVx8/gb95
+      etxwzdnfvQnPfofHWx7BtoLY7deNVs5xqQ9fe+Y03k2e7a0/XOD7P/jGHs9mWL50iXI8TzeI
+      ejx26jjeBJo++92vCZ77Lo/HjWtw92c53vv925z85neZDbzNtvm77nP+7d9invgGj3cDguC6
+      VNh+Xbp+kfOriq8/N/nZtCq4fOEym7V5ndnDPLK0MOHzDO/8/h2e/PZ36fpyD5oKfvvWZ3zv
+      B99ESm9L5bnx2T74/Vs88o3vMht6W5t9+zXeX//1X/819xmffvQeTgiMiOh1JmRh6ZxPPruA
+      NQqv1aUdTRJ7gs8+fg8rBMoFzHQnRZAFK5c+Y5BrqsowOz9zQw2ooDs7R6CGvP2Hj1kbJDz2
+      xGnCG4tZAVenfHz2ClbXBK0erXD32eGKZT68lGCLnM7cHMGk1iK64JPPzmONRsadPZ/t848/
+      wApBbX1muq0bdFqPucUFyv5F3v3wAklecer0o0xSVnR6jU+uZJgio7cwv+Wa3o7ByjlWhoqq
+      qJldmJ1YJ+uKVT66NMKWOe3ZWcJJz2Yqzpz5vDHsow6dG3o5en7IwqF5rp19n88+u0IVdDi5
+      tDhRX1+/epa1VFGVitn5STQJzn/2EdpBqQUzM52J9xmtnOfqsKLOK2YX53at0X3PBXJOEbYW
+      OXnyJH4wOe+2rmrmDh/j5MlHCPbsr6Pxo3lOnjyJ5++Vv2sxLuT0qVO0A3/PAugrn10kmJml
+      5wkqa+lOuLKuahaOHufkyaOEe8wLzkY1Jx5/jpMdj2hSSwRA1YqZxWOcPPkowZ5VZRovmh0/
+      2146r+bq1XXi3iIzskLTlKbciDxVPPrEaR5peRMZGxxKSU5+5RSzoTeRiQDypOaR009zshcQ
+      +ZOv0qqmt7DEyZOP3eTZcq6tFSwePoLes/+nQ2uPk6dO0duTJg1+l5MnTyK9YE+jt6oFJ58+
+      xXzoT9zs918CCNBFxiBJMF5Eb0IPeOn7jFavsTZIiDq9PU5J0PmIq6vr4Lf2kAAgneLS5atU
+      WjC3SwI0CCOf2UOHUEZw4ujh3eN0ABn4ZIMNhqOUoN2dKAH8OGL5wjmGScnM/PxECSA9j2Rt
+      mbX+iLAzs+ezmTLhyso6zosnSAAAiR/EzM+1EFGHpUMLEzeBHwdsLK+QjHJ6C3MTJYAnLZcv
+      XaKoHHOLkyWAF4csXzzPMCnpzc9NlADS80g2VljrDwnbM7QndvP1CaIWMy1Ba+EIC7PdiXRL
+      CRvrG2SFniC5x1A5F6+uYETI7B4SwPMcly9eIi8tcxMkwP3vCuEEa1c+58yHH3B+ZXIDVFtl
+      DHKNK/pk9V42umV1dYNIKtaTvWb4OjZWV4laEctr/YkLZI3h/IefE84vwGCdkbETrgKnFec+
+      +ojPzn7CWjq532U9WqMQMaPBBnbybTB1Tj9TUA5Iq72ezbG6skHsadaTyTMBjC4498kF5o8u
+      Mbxymb1WwJYZn3z4MR+eOUNlJn/ecH0VL26xsrq250mqRuvkLiQZrLPHEmFUQT+pENWQ0cRn
+      c2jV5+zn6xw9dpgrF64ymSJBla/zwQdn+OTMZ3tc41hZXqMdSdb66Z50j9ZXkVHzbJM2+31n
+      AOdS+kPH8VMnqPuTG6BWRU7YmeHo0VnOf3IBNXHFNbUJOH7iCMufn6OoJm1KR15oFo8sYTau
+      sZGVuxazygdspAnnPz1D99RTLASTBW6yvopzPsdOP0o+nNxwdrQ2YP7YMWaE4tLKBpOoVmVB
+      0OqxdHye8x+fo574bIpK+xx75CirZ89PfLZkY41BOuSzM59y8oWX9prbwbVzV+ksLHBktkul
+      J80XcGRJycKRJWSyzmqaT9xwycaQ+aVjzPqWS9fWJj9bVeDHPY6dWOT8h2epd32eZfXKMkmy
+      zplzq7zwtWf22LiG1ZUhnbnDzAWOyceNoVSSpWNHGF25RFLs0YUuKVg4uoSfbjCod18zBRXo
+      /2/vvZ7jyJI1z1+kFpFaIxMJDRAki0VR1V19xczO2s7sjNmuzd84z2szNrYvu933tqhWVUWC
+      BAmtE0DqTKTWmZER+wCyqoA4QfKy77JqbPg90ZgHJ/xEHOHH3T93B6GIh1ajw+KdFWTBMWm2
+      2ZgOh0w0Cx7ZjsvjEagT157X/lAlEHBjsbtxCtQJm9VMrzfAE/RjlqzI7pvqhNXuIugxUW2M
+      6LbaxGbiQjXB4ZYJhtxUayPWVueFOr7d7aLfbmF1e7Ah4fHrj26zxYo6HjJWzXg9DlyyB5uu
+      LxMWSaU3muIPyFjsLp2q5HB7sal9hqpEo9lnJhEWTiZvyIfdIjE2u1mYiQgphna7lV63hxz0
+      Y8aMLLt0fdncLgatFhaXjE0y4Ql49erEm7EpZrxeB06PB9uN+4IJjz/EqF0BE/QUK5GASAWS
+      8AUCmJQuztgc8YBH2MZmhu5gjC/gwWx14hZwaW0OG/1OD3fQj9vlwnHrbvJRT4CrzD5n5RaV
+      8wzuoIvzyytdm0E9z+bOGXI4Rirhx2xx47qlb4+6DSr1AbJ9SqlSBWeAoPf2HUDl4NULan2N
+      9PwcFkUlGA0IJ0kxkyd55y7uSY+OYEc+ff4ddcwcHmUJuSYUqrdVN43yxSH7ZyXi6Xn8Ngue
+      aFh36WqXsnRxoo3b1Go15HACt/1mq+mow8vNLSZWmfn5GaaKhaBXnwYFppTKbRZX7zBtlAUq
+      kMLL7zZQrGbOL6pM21W6k9s7ssbx7kuKzRGp+XlsypRgPMxtv24ln0VyB+g3itRaXWLJhO7C
+      PW4Veb59jDMQZXY2BJILWXi/GVJrm1hfneMqXxL83ue7b7aZdK5oay5q2XPdCaAqQ7ZfbtJV
+      7czPz4JiIhS4zZeekr0s4PG4qV+Vafan+Nw3CTqaqnzcBWB32inns9RbfZAkXeo8gIu9Y9L3
+      71LLntFot6he6e8JvUaZfKVF/qzI6sNlcmc5wdPalGpmkj6Jk8sS1UIZff44jdFwxNLjhzRO
+      97El5oUqkNNl4fLsgt5IQVMRyD3l4rzC2v1lTnb2qJUrdEf6p1UzGZqTPqXKiJXFEBeZsq5N
+      q1pAcsdxTupkaw1KBf0mAVOGQ5X1e0tcHh8SX7uH3gQgYZZGZHMFJtPrtA36190lX1ZYiLk5
+      Ps1yVSihVxJUsicZhtMmjZ5MyDSm1tXfSy52jkjeu0u7dE6906JS1lemmSoTxhM768tB9k+K
+      rD9YFchkQRk2yJeurlUxSdK1GXarDFQ/IXOXs3KNcqEqUMmGnBxd0qpVsAfSaFcFbiuuyqT+
+      cVUgu+zHawer7MPhCLCykNAdyW7ZTLNrYXE2xEUmg8MXJRK4uXLtbg/tUoarXo9GU2HlzjKy
+      7vizMRq2iKYXsYzqFOpDUvPJW7vymM3vdokvLpCIxYgEfUIXuhyOYVVGePw+PMEEs7HALXaV
+      hEmaINn9xAM2MhdFIukU8q2TyxcJcL67R2fQYzC2cufOok6VstltdLoDZufn6ZQv6al2UjO3
+      1ZsWz77LsnRnkWg0SkB4QpiIxGKMB2P8fi+J+UX8Lsctua2Mhx1CqTmcWpfLUpvUYprbSoLX
+      a+Ng75zBsIXVH2UhGdNZymSflXpLYmk2Qu48g8UTJha6WZ+1Xbng4kphYSFNLBrV+QmuYSaR
+      CDHWzMhOOwsrqzhvbUpmi41er0dyYYlxPUdjYGJ2NnZrN7ch24YcZYp0uy0Cs0vMBLw33qPJ
+      ZPs4oRA/4Jp8IQlCDd5AnU5RXsezDLtlshUTd9duc2J/IHG8gX7iakwmyuvnqRy93GPxy0e3
+      dsoh//Rf/x+cM/HX+qydB794iPvWfePHsmqaJtiVNKbKlKl6XSOsdHyEZXaRhEfPfLoltG53
+      0zQVZaKgISFJfbZfFXn0xe3LYp3/67/8ntTq9XuxuYI8+HxNp5b8OOTjOmePXm5loqBeD4nT
+      l1ukvnzCbWXifeT+8XdTxjWOzyY8+OwmLbKR3+frp+fE4tdlW33RNOtLScE7ePOOf5gvxu9o
+      xN6rC+59cU+ncurojwLa6kd3hB3tH7B0d42L42OSiys3qqsAVI5fcjFx47dJjHpVeqSE/Zwe
+      HjC7skYpc0Jodul77sEPGPHdn74hkpwBVLL5CvNf3u7FzNJnj5hbnTd0AAFo0zHHpzlW1uY4
+      3D/lzt212y04fPkUxRXEbpYoZS5JJ+YFPakcHhyzur7C4d6JoB8YNIpsCK94tQAAIABJREFU
+      HuYJB33AgFJNZOC08/BXv2JlVU+W/zEmnQqXLTNzQTPn1SHL87cZWROe/fUbgq+LD55flkjo
+      3hEo/TrnVxMWYm5O801Wl/QpDmtn25wM7ATtJpRxnWY3rGtjd4f48u9mSMZ8ut9+jHYpQ9c+
+      Q0ApUjbFWAjfPOEmgwZPNw6IxMLAmHylyV1BP/2rc66IETXVKU68LMZvVhtSle7HXgASiYCJ
+      3d0zMNmwC5wp4fQcStdBKiozHkQoXokOKIlEyMb+YQYUjVmbaPo6mFtcYGZ+HjMqTskqGKyV
+      xdX573ccI5jMNmxql7PdXaTggtAplUjPYZIj+Fw2wi4Hkl3/NAkTHuuE4919NE9ceCF3eoOk
+      Zi2kUzEkhpilqqCVm5VVl67yy23YPGE6B5tcdCx4Z9cFz7MxOzdHfH4eC+CWTIj8t1aXn371
+      JZd9C+64SG+H0Ows/YaVuYSX6aTFRU6/cF3+KC60d8oth6Kc7h5RUiY8eDKvl8fhJT0/Tyqd
+      xMQEq5QXXmZdwRmuNndpmmDlM/1mYbK4PrYKdH18HW5vMrP2CK+grusNdUNVwSi2W9M43nlB
+      ePkhAad4/37z9xioW29QL5yTverg9viZmUngEkxeddTm5WGBh5+tGWYru34GaCpg0qsJAOq4
+      z/ZBhrv37mI1i1po3//92+VWyZ4eU++OCEbjxCJhgTkVxq0CeyWVz1dTwjX+wzvWuP6n+B0p
+      3QqvLvs8Xp832Ct++Pu3fjfGHG4fMpHMhGMJomG//n1qGlfZQ1q2BIsxn+B57/mONI1m8ZSK
+      GmQlGRT289EXAIA6nTDVTFgFMSWaqrC/f8zavRX2t4+499ndt5Ib3oZa7piRaxZ3P0vTNctc
+      UOwuGveanGYu6QynKMMxT/7hl4gikCajESabTVdVEWDcrXJWUViKOzktdFhbnv1AuTVO9veY
+      Wb5DJXNEML2C1yE6qDXaV2Wy+SJDVUOZOvjyi7uCnVBjPBpf5+AR9NIpn3JFnCgVSkRYin1o
+      YTyV3e097ny2zv724Vu+m0o5e0GxWsNs1RibZnhyT5Q9TmU0UrDZbYJ+NC5PDvDOLDMonWKN
+      LhGWPyTZkfbTFMhoVS45uawJf5MkMz7HlIOX29jC+gvSjzHsXnGeFfcD4I/EKF8ecVTsknpL
+      7r/JVCOWmuPB/bs8+eKhMKgM4GLzJXWDOACbO8S4nucskyEQi71V7ur5GXUDzyVIpOIeDvaP
+      aY7MeASn0TU0VMlCanGF+3fv8/CzZYNnauxvvEQcUAHucIpm7oCDXJNUWGRN+gGXB4cMDH81
+      EfaY2Hu5g8X/tvFPMds8LK/dZe3O59xfjhq0G7C5cWDwm0Q8FiCTOaNQnxB0v23yjzk+yCDy
+      gYP002SGk4MzpFWDa6ckkUgv0jzJsRh7jxKpbzm/zHYvsyEHQ1cKobbxGs3cKX94cYbFYec/
+      /uf/Q7j7AyTvrmM2qp4ombi3PsdeYUzM847ssu84cx2BNMHyFr65e2+5mmjkT1/x4riN1+vm
+      P/2f/8Fg0kks3V83HJPJbGcxGaROUHgnu/HEd8gdTS1SH5yzOPO29Osq+5t/pFhT8M6t87//
+      w2cG7Rys31807MXmiRO1VbHN3xX6k95X8J9EBfq54fTZnzjtqkz7Y3757/8dQUGk588PCpvf
+      /IViW8MpqfzqP/yvhvFAPy/0+cM//+U6gZU9xr/7Nw8/WMX918DHvwSrPb794wtcAS+BWJp0
+      XJyYqnh0hH1ugaBBuDAM+e7rZzj8XrzhJAtJvdntGn32dsrcvb8gkobRcHhNi9RgPJ4SigSF
+      On73Ksv2SQmX00FyYZmwLvTiGmc7eyTu3xV4Zq8xaJV4uXuOy+0inl4iFhDXKhj1q2RLGsuL
+      IhVBZdAbMJ5MXmfGMBMK+oQTqXy0Taan4jRZWbm3hksYyz9ifyfH2v0lQ5346myf4+YIl9nG
+      4voqHoNNopo5RYskicr65aiqCsPBiPFkgqpMMNllfB5RqLfK0eZzOpINp8PL6p0FoaqiqS32
+      9zvcvSc2lYPG2fZz6lMrDqubtXvLOvX2J7gDmBhPp0QiETwu46IJFoPL5o/7GSkKkUjEkAtw
+      DQmb4SLS6LVbbH79NZfNNjvPn9PWxcu8xlRBszqIRMJCLsAbiC9tP+5nimq2EYmEDeLlX0st
+      WbAZRKaCSqtR5Zuv/8xVu8vm0+eCEIbXLSd9rHKQSCQkDPJ7/TTshu/oNSZ9zK4AkUjQgFhz
+      DbPVavgcdTqhUcvy9R+e0W2V2Xh5ZNjPeDzEGwgTvOW9vSm2CbvhHem12KMhbl+IUMj/cwmH
+      HqBMHciyjMMmfumaphGeS+OxmPReyO8xZKzYkWVZGAX6Q18OFpeuy3LqezIRjMZZW5+l3x6A
+      yfx9/dzbGA0HWO1uZNl9g+97W+6ZpUVsrzMqiDCeDDFZXMiyLDRbvoHV4SeVDHxf/eQmLMRT
+      adIzfsbjMZithh+y2x7i8XmQZZfhhqJpVuaXUqCKnvW6n84Q2Ssjy24hYei6H41Acha/wyoc
+      v8XqJJleIuI1MVLUt7D9VAaDKbJHxu0WnRBvILOwGDV4RwAa/f4E2Wvcz0/ACdY4OdhjpCio
+      Fid+j3737tfzPHt5QKvZwuz0GMSMwNnRHsOJgiLZCXhFqoTC7rOnFOpN2p0xAQO2k93lwW41
+      k0jN4nU7hXZ+ddLl+CzLaDjE7vHhFiy6ytEWO/kqzWoDTyggZE1pypDj0wyj0RCLyyuIYQIY
+      8O0fvqHZbTOYmvEbsJ1cHi8Ws4X0XBqnQ3zyTHpljnMtht0e/kgIqy5disrx5jMuqg1azT6B
+      SEDMLR5ccXhZZ9Tr4Q0FhbTIYbvM040dWq0Wkt1tMDYTgUgEkwbx5AxOu5jOWC+dU2n2GQwm
+      BCNBgUwjnv35W+rtFt0RBPxiZlm7ekmh1mPQGxGMhX4GjDDJStBjoZjLUmmJjXMmYIoJr/d2
+      PPmPYWd9fRmbzUEgYGQtMqFMxzhdHh0P4Mc429ygOpqiTCaoBlug1enFMmhTrhRpD8RqkkUa
+      o5rdeL2y4W7r8IRZTMexO1z4hIsWwMJEHeP1enE5jHbJKdvPXtCfqkwmYsoIgDsQZVgrkisW
+      UYQWXAlVHWNzeoQ8gDcIplaY8Ttxe724rGK1wyRJKIDX68Fu0Aa6PPvrKw5O9th5eWjICAuF
+      g1SLZQpFUcg0gJmxcv2O3E67oQUstXSHgOzAEwwIvdwfXwVS25TLQxLpGQZ1MSNsOOzj9ISI
+      xYwiBgHaHJ+1WZrzs/3q1KDNlMFQIpaIEzbY/QHcHgvFywLFYgXFQHVpV8oMBiozS0l6LTGZ
+      u1nvE03GicUi4qwJQLuapTVxkvCr7O4XDCQaMlHdxGIxg0hPAAmrdUoxV6RSbQgZWgD540us
+      Hi8Rn4vh1IAR1psSS8SIGuz+ABdbW7hmF1CbRYotsTdgPOpjdwaJxWJv+W5uZuIOFpY+Y3Y+
+      YcgIKxSq2OUQXtNUEMYOMGas2InFYgT9Rs47leOdQ2ILS5QP9xB9tZ+EERaM+DCpKrH0LB7B
+      MalNh5yentPrda/VBIfYrn55ekh7MKBRb+Lyh/EKLtX18iWVeptuf0IwHDAgfLtw2iw4HE58
+      fp9w97a7XETiYUa9KcnZGRyCC6o6anB0XqHXauMNhcQq0HTE2WmGbr9Hs9EjFI8K+pLInh7S
+      GQwYqlaCPpEKZCIYCmI2m/GHIsL3COAJePD6AmhmO8lIUKi/d+p58pUWnc6QUFSvJgBMR02O
+      zyv0uy3a3TGxZEwffamOOTs5o9fvYXJ6DWTSaJSz9BUrksVKyC9me8leP17ZhsMfIuIXX4QL
+      Fye0en36E4mgkDUGnXqBXLlBt9PCEw7hdd5UuT/qCTAdttja3mFscrOwMs+g0Ra2c/piLMwE
+      UZSpkFw+HXXZ3j5g4bMnPHr8kLWVNZJhj74hZlLpNHar+VpfNpDLZLJgs9k4P9ynL9ATBo0i
+      W/vnmN1B5lMh+m0xJzg0d4eoExRlKjzax50Ke5kanz35kkcPP2dtdQW/SzRJbCwsJK+94j7x
+      hwWF3c0drLKHg81NgadXo5I94fDiikA0TsxloS/0YkvMrdzBaZoynYrk1qgVMuS6Vn7x5SMe
+      3F1n/d6q0LFmdwWYiQeRJDNeQ/Wuz0WuSrfRoXhZEj7v7GCbUqNPYnYOx3RsYOGycu/eKoqi
+      MBWOS+PiaJepJ8kXXzzm/uoqwYDe5P5RF0DlPIM9mGRcz1Jtt8hdiiIdoVnIsPX8GIdXotrQ
+      f9pGKQvOKFKnSLHZInepZ1ZdY8zJcZGVu3cpHe8bhgP0WzUuLi4YTk1Cr2Jm55CZO0vkTo9o
+      dxqUr8Sq29mzDS6qHVRpyHCs/yjnr/aIr61SuTyh1W1SLDUNJGqTyY34bD3J3taJgZ5sQpat
+      XJXLaHa3IHxjwtlpicWlBIe7h1zlCwJKJIDK/ssXFBsqg1ZV8CyVzHGWxbU0x7sH1MtlWgZh
+      HN16nr7mY23OzfZ21mBsbtbXl1CUPgtri4LF3eGyMCbugZOLEuXLnMEC6LO1t0u3PqZRqwt+
+      75HJ9ZkN2Tk+zVK+zAkzZ3zUBRBKzqCNx6SXVmgV8lgFFiAAh+xjeX2WbmuCSxfnD75IDIum
+      MLO4yrBSxCTILXQNM7ILdre26U+GnJ/r03A0alU88XnSiQgr9+8iC0yTqdVZhi2F9ZU5ctky
+      DoGTByCQiJBMhBgNwSKIvUjdmaNfH7K6vEDhsojTwJkGdmy02do9ZTyska/ePikVyvki7nAS
+      l83G8tKcoA8riWSQKU6WU37Krb7BvUQiFE8S9luQLA6DUO8o47GF1YUIxVrb0D9hc7jp1bPs
+      nRTpNYs0eqIpN6FR62JizGWhIvhdJhq24wqnCNsHtCaSwb3ERiSWxuOZYheaU13EIk5s/hgJ
+      j0ZjpAo1gI+6AKxyhLX5GJisLK6uIgteZLucZewK43JYMCPh8+kvgRZngLWlJEhm5pZX8Aov
+      XArZbJmVO8uoikIkvcya7tI15nDnhFGvxHGhTy+boSnYJT3RBdIRF5JdZnVlQbDbapTzOdyz
+      q5hHbexOB06B9coZmmcpISPZXKyuLSEyXI57Lcq1IXfvpBmONRbuPiAZuW3lmnCyv8fRWRar
+      w4XDwJSYXrqDx27G6YuwNCe6cE7JZgskkkkkbYLN6xcGAs7MrRJ0W7HLIZbnk8IJ2ankGNjC
+      pONeVM3CvccPCbhFE9PKnYeP+fIXn6N2e4ITR+LO/XuYNI1gbI6UgDyjjPsUy03mYzIjyY7b
+      L/KCS6zdu4dZ0/BFUqTj+vgkdTr6uMFwndIZ29kmfrcD6JGv2rgdClU+O8P+IECpOmF9PcDZ
+      RZXI/Zvhsv1ajpfHRfxeNzAgW9J48Pntp/U4PswjJayEF1ao7u4wWpu/FS9jIRiw8HLziDtP
+      /oGr4y3sAh2osL9JbuJAtsCgVUHzLt9qMeXy5Axn1EWz5yXuGVDrj0j6bu7wleNXnPWteK0w
+      Gdboqvow4H6rQq5hw1HPs/Llffae5VjSBZc5+fv/7d+jjLo8f/oMxRbkF7/8/NZuprK78R1T
+      lw+LBMXDM+7M3g4uG3BymMWxEsAVWaB/fkCfFW7lTuDo5Xf0rV5sJqieXzD7S32lzGomA+t+
+      qqUB65/H2DspEX9y82SaKhOmmsLp7j7dscL82ppoC+DbP36LL3Id2nJxkiX++YMbLSaDOucX
+      XYLjCotfPub0uwOW5+O3JvOEZ3/+Fjl0XR304viC0MOb/ahK++MuADkYJqF4WZyNAD1Mkj6U
+      eeHhQ15t7zJQumQKDlbv6CMCXb4AiRkrC3NxJAaYJNEdwMfqgouLXBmlNWZmeU1wcTOx+uAL
+      ll/zZqIPHwkLS4RTSdShh9mom0E7QrmlT7F65/4Se5snTKYdBs40CwI1KZxM0G+7WEh4mAzr
+      XOT19ntvdA65tkNlMqK5fcHKvRXB2MYc7RzSUzRic8tEYnHBzm0mOpPEEU7idVgI2+0CD7bM
+      3dUgxxdFxtSIzS+jP29NRGZSIMcIyjZqHjdTQfjB3MOHvNrapaf0ODprsX73vq5N5ypLsedm
+      /eFjwZjewM7MbIrU0tL3LLXbT3N44kQ9OxSLQyqvTpi7syw4lWzEk0lmlpawAh7JpHtHZlvo
+      p2CEXVcOeVuYz49FMqbOiQnTojZv7+f98C+SW0Aa/5f08265r1lV6usiFxa7zPxCShww9g76
+      4Y0EA3+j3O/6bu9Liv/X+7bv7ucniAYdcrB7hjcSJR4NCe3So16dTLZGIBwlGhJR4gBGHOyc
+      4gmFicUiBgFYUy5PTpnaXCQSCaHt/n0x6FxxWWgSCEeJBL1CmVrlS0pdjWg0gl92CduM+g0y
+      F1X8kSixkN9gbGMOd05xh0LEo2Es74jTfxsaxQuqA4hGo/jcTiEtsHB+wgAHiYSYDgrQrmQp
+      dqZEIlECHvHYxoMmZ5ny9djCt1PHQK9ZpjlyvJMUDyq5s1PGJgeJmRmcQs73hJP9U+xeP7FY
+      1CCuSqN4cUpfsxOPx4XOuY/uCJMkMwGfi8NXzzjLV7B5wnicNwWz2Bx47CrPnz0lf9UmEApj
+      101eCwG/zPHOc04vCpjcIXw6m7oJb8DP1cUhW/snjCUHYQOHybtgtTuRbVOePf2OwlWXUCSi
+      e+kO2YtpWOPZxiuuOkMSiajOymCxOvA4JV4+e0qu0sIXiggWpplAwMPpznNOL/JIzhB+9ztI
+      NgZwyD7oVXn6fItmf0Jcl/lNQvYF6JQyvNg+ZKiaCYf0l0q724tl1OTpxkuq7QEzM/qxma12
+      vE4TL58/JVtp4Q2Gb0xem0PGa2BBuwkJj99Pq3DC5s4RQ6zXm87NpxEI+bnYf8HB2SWqzUdQ
+      Z1W8rv/QrZzzYuuAQNCLy3lLydM+MlS1r+282NKavZE2GbW1YqmpazPs1bWtV/vaYKJonVpV
+      a3SHgp6G2t7mllbrDLXptKflczVBG0W7ONrTLssNTVXHWj5b0qYfKPegc6VtbR1oI2Wqtatl
+      rdUf6dq0qjlt9/Bcm0xVrZrNaQNBP6N+Q9t6taf1x4rWbVxp9bao1VDbf7mlXXUGmqr2tVxW
+      NLb3Q6N8qe0dX2iTqapVsjlN/yZVrZA51M5yVW2qKloxW9Amgn7aV3lt5+BMm0xV7cpgbONB
+      U9t+uaf1RhOt16xptVb/A6WearmTA+28cKWp6kQrZIuaon+adrS9pZWbPU1VB1ouWxX0o2rF
+      8yPtNFvWpqqi9VW91D8BH8DCqFvir7/7NS8zHeKC49CERKN4xte//Q2FkQ2/0JxmYTK84tvf
+      /xNP96rMJEU0PAkTI15++w2/+9MmkdTt7GHvDxMStewJv//tP1FVXXgFbn4LKhdHO/z6N7/F
+      FIoKGVoSJlqlc/74u1+T7VkIeEStLEzHdb793T/z7U6RmdTbKIZvhwWVzME2/++vf4c9Ghd6
+      cE1M2H2xwT/99huCqYS4kAQa2eM9fvOb36IFI8Zjq5zzp9/9mvO2SZCv9X0hYZLGbG08459/
+      /5RwKi645JqRtC7f/f53/Pl5hkRKTIgyMWFv8zm/+ee/YpYEtSg+UMIPhqa2KRT7JNIz9A2C
+      4Tq1Cu3WhORyim5dXEMAOhRKvev0fy2jNgr5whUOOYRbGxsQo98PzUqJbldhZilJtykOhcgd
+      ZDC5ZKIhD8OJOISr16zQbI5JLc/SqYnHD13ypS7haJSJQdjF+yJ3eI7Z/bZgOJX8ZRGrO4DP
+      rBqkIofC8TnYnUSjPoNU9NBvX9FovB7blTjM5f0wJZ8rY3MH8ZoUg2C4AfmrLj5PCNNAnNId
+      NPIXBazuAH6LOM36TxIMFwh7YaIQTc/iFcTC2BxOQvEgw86E5FwKl/ASZL9Oiy1NCSVT+ES1
+      xjAhe73ITjNOf9gwqOp9YHc6CcdD9DsKqdmk8GImB9x4fAEU1UwqLr6YW+1OQrEAw86Y5Nys
+      0NMNdrx+D1aTSmgmhVcWeWjfD3JAxuP1MZVspIRGBwm314vHbcPi8RMP+oXPkn1uvP4gk6mJ
+      VDwirH5jsTkJRQOMemNm5tK6zNfvDwm3x4vssmLzBokGRI4uK7LsxWWf4onNEPCIOROy14ss
+      OzDLPhKCsX3UE2DYbXC0v8Xmq2NGwzZ5QQbhTq3E1qtN9k7yjDpVqk196O140OboYJvnLw4Y
+      DXrkSqJYkDFnh/tsPN2kPRiRzRY++ARoXxXY2txkL1Ni2K5Qa9+WSaWSP+f5txvkak3qpQK9
+      sf5p3XqZ7Veb7B7nGPWuKNf1AbrjYZvjg22ev9hjOOyRLRmnfXk7VMrZDM+/3aDQaHNVyDPQ
+      BY0pXJ4c8/zpCxq9IfnLnDCDdjV/wfPvNri8atAsF+iN9GPrNSrsbL1k5yjLuFenVPvQk2vC
+      +dEhz5+9oNUfkRPINJ30OTnYYWPjFf3RiFxeFMOkkD094fnT59S7AwqXOX2adXX4cReAQw6w
+      sraA0+5mfiHJQKC6eEJxFtNxZF+Y1EyYnkAFsDm9rN5Zwml3MbeQYtQRvWwbi2ur+N0uUuk5
+      rJORwVH6bnjDM8ynongCEZKxAL3u7QVgIpqcJxn0EEikCbmsDBX90+RgjKW5GdzeELPJCL22
+      fvw2h5eVO0s47W7mFlKMO0aF5N4FE7HZBWaCMqHELAG7maFuAVhILy8T8rhIzKZxqhNB4JlE
+      JDlHKuwjEEsRku0MBAQcdyDK8nwStydAejZKz1AtfReszK+uEJBdzKTnsE/Huu9mtrpYvrOC
+      y+FibiGNOhgIaaOzS8uEvC7iqTROTdEtAJPJ8dM4wq6KWbpDhWB8Fp9LEFmjKhRyeSZTlVhq
+      DqdVvE5rpSztgYIvkiBoYF7rt66oNnuYnV5SUXEGiveSW52QyxaYqhrx2TldUl+45jGcnxeQ
+      rHZmUzNCH4emKhTyecYTldjsHC6DsdXLOVr9Cd5w/PtC4R8CdTLg4jLPGCsri2kh3XPYbVCq
+      1JhYZFbS+jCH67GNOL8oIFmspFJJoXqnaVOKuRyjyZTo7Dxug7G9DwbtOpWrOhOrl+VZcfKs
+      VrXAVauHwx8jGRazAke9JqVqE2xu5mYiut9/AlJ8j1cvDxmOx/R64t2tW8tzlMkzGI3pD43K
+      vw14+WKf4WhEv2eUr0xh/9U2zW6fUa//N12C2+VLTrNFhqMRAwOZivvb5Nt9hv0BI4MMcv1G
+      kaPTHMPxmP7AKED75tj+lh0qu7NDc9Tl7ChDS1C0A1QyB6cUqxXyp2eGxfb6jRpOj4tqtc5Y
+      zK1EGQ0w26y0m3U6PaM8Fe+DKadHGXLlEqWMkUxDjs6qVAtnXJxlDb6tRrfTw2zSqDdaQtbc
+      T2AGlTDZ7ETCYXGRbEDSVGxuL5FwWFce6cf9SFYbkXD4Lc4VCU2SCIYjb0+v8T5Sayp2t49w
+      OIzDQCZJHeMKRAiHg99XZddDw+qSr8dmmM1CQrJaiYTD+N6a8uXdsNlNlKt94lFj76tJGtFX
+      ncLT+A1Kp+fsHW4zHo6odsQbzqBdZfvpBhOHlcxx8W+QWsKkDRhJHmS72eC7mVBHNcxyDLtZ
+      VP0GQOPy8JidTJZRMa+rEAM/SVYICZvZxFhRMFsduAR0R5PVhlmdMlEUbE6XIcHabjUzmihI
+      Fjtup5g87nDYGY9GqJoJt+z6cD+A1Y426tEbqbhkWeCZBotLZtxuMFJA9spYdBkYrgvJSZMh
+      vdEEp0s2XEx2s0SrN8Bid76F9P1uuP0BpKmJSCKCX5YFKpCE7JWxWl2EokFdHa038AacXGa7
+      pObCRALiTNRWm5OrSo3UTBhXKIH/rTk73wYJ2ePGZncTjATwCmUy43FZsbmDhCJBZKPvb5/S
+      HTkJRr0kQvqq9D9BnWCFarFI9niLV6ciQgQo4yGlQoGTneeclY2sCVOuikVylxcUa0Y2Z41W
+      /Yp8LsdlrmRIHH8fTPpNLittutVLah2xHXxUL1BqTyheZhgaqAnTUZfLQo1BLUe5ZVzf+Pws
+      w3TU5rzQ+BukhvPN5+ydnJM7O6U2FMmtcrT1gr3DSy72DoS7JEDh6JR2p0O33aLRF8vdb1cp
+      5ip01THlS/G3fT9MOdx5wd7+JZd7B0IyOwzY3n3F6cEFxzvHhgaO/Pk59VqLdrEsHNtPkBbF
+      QnRmhtRiGrOBLm2xXgdBJdMJVEM92c6DX37FV1/coWW4AMwsrD/gq1/9EgZiHfB9MR4MsLu9
+      +LxO+j2xTN1mF18kjMssMTJYAJPREItDJhiU6enMqd+3YqJYCYf9jLofagW6RnAmCqMe1Z6C
+      RxgMKBGMhJgO6nRMTsP8ooFEBNN0RKnRx2uw29qdHrxeO9mTHMFk6G+Q2kQgFEQZ1OhZXAaJ
+      fW0EfF46zTJmn74C/BsEI2GmgwZtyS5MV/lxs8BqGqqqYTGb6A4dPHqkz9epaSqqJmE2aWi2
+      CHcXxFYJGLH13Sa96YRQfNWgzZTM/i6lZhezJ/Q3DdaXWGDRXGas+UnHxKEJyfuPMRXLSGv3
+      iBgEr7lDSVanFgZTE/fjRqnBXTz+4g6t/pjHDz+0zsBrWOzE4kFUHGgGHZksTqIRHxa7mykI
+      J5NmthFLhJhqdjAZ+F1NEsFYhL4CTsvfZlx0uv0sLDpwywFjTrQ7yMJaCG/Ax3Wwth4Ot5/5
+      RSsul1fYz0ddAI3LA7JaCPvVOX2rk4PTMr+4fzOxae7Vt0zmH1E5y+D2OcgUg6yn/TfaTLp1
+      sq0p8/Nx9s8rOIU5RlWODs9YSKeodTM4XI4PPu5OXvyJo5pCyO/FYbNhd3tuJcdV2PjDb2mo
+      DgJ+L1ZzB4/fg3zr7nK59Q1bpQFhvxen3YbV6dElx21Xz/j6L/sEY2HcLgdjzcZCKvLBi8Ab
+      SfE4NMPexlNGiopbQNWMzS4TSWls/OWvqKwL+5FDCR75Y5xuv6A3VPAJLvBWu4d7j54wrJ+w
+      X+qSEmbqeB9MyWaKLP/yK9xmI07wgPN8l7//xydIklE1Go3s6SVIZDdjAAAFOElEQVSzX/4d
+      XoN+Pq4KZDLRrxfJ9azcX51hKDjeJZOZq/MDFG+SdDzIQKButOsV+qMpu7sn3Hu0QvZYlIGg
+      S6nYJXN4QGRhlX4xb5gV4l1YevgrHq8vEvA4vq+oeBMWHv39/8La4ixuu/n1bqT/JLOf/ZJf
+      3Fsi6HW97kffxhte4N/+4xdEwwF4XXXyw6DS7/ZplC/Y2NigNsQwWVfx/JCNjQ3GFrehKtGp
+      5tnY2KDYnujKlr7BZNji1cYGW8dlgv63F9t4O0zIson9V1scHJ4b6PdWHJYB29vbnArTqwBI
+      eHx2Dl69Ym//VBgL9FFPAH9qmXW5hdXlwWxSePJQrwIk7z3G1ezg9vowTYfcDek1N388RX5n
+      H9/8XRyKSmJOpCZ5SIQ1OoRZ8DsZJqKGRSLeBU3TGA96DIYTTFYXdp3lRkPTVAa9DmNFw+Z0
+      Cc2gmqYxHg3oD8eYLHacglgZDQ1VGdHpDjBJJlyGGS/ehQk7L3b47O8e82U0DUiC4h49drbK
+      3H9wj9RtmvP3mHK0dcjcg7v8KpY2fFp2ewfv/Xt88atffaC8P8h9fnTGQLPjkV1Mp1PdVjKd
+      9MmcXmBxeXHYrKjCfJYK2dMMnYkFn8fNZKzvR1WHH3cBSJIZX+CN/mxFZCWTzFaCoddtrKJ8
+      N2C2yTx4/EM9zxXhd5FYuf8D93RtVcStfT9c7DwnN3YQ8Ti4rj88hRsqgMrOs2+ZuMN4HFZQ
+      FRRV43a8XGH/BaddMzGfC5AYTRRd9rRuLcvG9gXJZARJkhiPPtyh1KkX2HzxZpezc+/x/Vsq
+      0ITjrU06vWtOtcXm4/Mnd2/l0NQonR9R7LVe/7+Nu48e4LvFrurWC+x/08YjSYBEavkus7ps
+      Fu8DK/OrSzz7+ltWHj5m909/RmH1xkS9DoVI8/Xv93jycJ6/fHOEtnQ7wYCF2aUlrv74Z2Y/
+      f8zRn//MBG7Mp58kFOITPhYUcucl4vNirvA12jz9Ns8vvhLr/W/62fr2FatfPXlrBZqT754S
+      +PJLQu+sV/Q+0CifH3I1hP5Q48nDdWHxv9Pdl0zMdiZmL/dXUkJucS13SqGtMBhOefL43s8g
+      O/QnfCRYSL118gN4ePKFkQXtDczc++LhO9XHxSdPCPyr1TrS6HauOL1oYxq1DUNYZNmBZpbx
+      y8bS2V0uFMVMLOwRTvb/EYphfcL/b5AwG6af/5e0AdN7tHl/aHS7Q6ajCa0mTEGgCg84zGSQ
+      tBh1s0YiERFO5tO9HUqjAJP6gGA6zW271KcF8Ak/M2ioqon1R18RKNdw+0IGqpeD9EyC49Mr
+      Eit61eYNZpcWqW5dMA0kEAVUfLoDfMLPDBOOtnYZmixMRmOCkSTpdOzGBFfGXfa2j/HG4njd
+      LmSPjNVyO2huwvH2LqorSCgg43Z7dCkk1eng0x3gE35uuKZDup12LCYL45E+HNxik/ns0QNs
+      kzovNp7xavdM4Aewsnz/c2Ie2N3c5Ol3L3Vh1Saz85MK9Ak/N6iUi0Ukl4zZ7iCZnNGpN6N+
+      hf/7v/2WO1/9PU++nMXjkQU7+ZDf/Nf/jrz4kHsPH+PxenUX+emk+UkF+oSfG1RatSu6wxG1
+      Yp5qz8w//tsvdfW91OmE/NkhJ7kqcjDFk89XdItA01TqxUv2js9RJZmv/s0XukXwaQF8ws8M
+      CqVcCcnhJhTwCdNCKpMe+1v7mDx+/G4XnkAQj+t25gyFs709WlMrYb8Hl8dP8FYlSXU6/LQA
+      PuF/PLyZsu+TPPdtbTRN+7QAPuF/bnyyAn3C/9T4/wChTHT7/5iV3wAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
